@@ -1,0 +1,3252 @@
+{
+ "url": "/home/DoanQuangLam/Projects/QuynhAnh/index.html",
+ "at": "2026-10-21T07:39:03.062Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 9,
+   "filled": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "motion": {
+    "elements": 210,
+    "css": 184,
+    "transitions": 26,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 8092,
+     "screens": 9,
+     "words": 680,
+     "img": 12,
+     "video": 0,
+     "canvas": 0,
+     "svg": 1,
+     "sections": 6,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 0,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [
+      "♥",
+      "✦"
+     ],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "10",
+     "words": 1,
+     "chars": 2,
+     "lines": 1,
+     "size": 232,
+     "vw": 16.1,
+     "font": "Playfair Display",
+     "weight": 500,
+     "tracking": -0.05,
+     "leading": 0.8,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "center",
+     "position": "center",
+     "widthRatio": 0.14,
+     "top": 215,
+     "gradientText": true,
+     "tag": "span",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Gửi em, Quỳnh Anh",
+     "words": 4,
+     "lines": 2,
+     "size": 64,
+     "font": "Playfair Display"
+    },
+    "headings": [
+     {
+      "text": "10",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 232,
+      "vw": 16.1,
+      "font": "Playfair Display",
+      "weight": 500,
+      "tracking": -0.05,
+      "leading": 0.8,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.14,
+      "top": 215,
+      "gradientText": true,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "Gửi em, Quỳnh Anh",
+      "words": 4,
+      "chars": 17,
+      "lines": 2,
+      "size": 64,
+      "vw": 4.4,
+      "font": "Playfair Display",
+      "weight": 500,
+      "tracking": -0.01,
+      "leading": 1.14,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.28,
+      "top": 299,
+      "mixedFonts": [
+       "Playfair Display",
+       "Playfair Display italic"
+      ],
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Quỳnh Anh & Anh",
+      "words": 4,
+      "chars": 15,
+      "lines": 1,
+      "size": 32,
+      "vw": 2.2,
+      "font": "Playfair Display",
+      "weight": 400,
+      "tracking": 0.01,
+      "leading": 1.7,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.2,
+      "top": 451,
+      "mixedFonts": [
+       "Playfair Display",
+       "Playfair Display italic"
+      ],
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Chuyện của chúng mình",
+      "words": 4,
+      "chars": 21,
+      "lines": 1,
+      "size": 50,
+      "vw": 3.5,
+      "font": "Playfair Display",
+      "weight": 500,
+      "tracking": -0.01,
+      "leading": 1.16,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.46,
+      "top": 1065,
+      "mixedFonts": [
+       "Playfair Display",
+       "Playfair Display italic"
+      ],
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Những khung hình của em và anh",
+      "words": 7,
+      "chars": 30,
+      "lines": 2,
+      "size": 50,
+      "vw": 3.5,
+      "font": "Playfair Display",
+      "weight": 500,
+      "tracking": -0.01,
+      "leading": 1.16,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.46,
+      "top": 4023,
+      "mixedFonts": [
+       "Playfair Display",
+       "Playfair Display italic"
+      ],
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Chặng đường tới kỷ niệm 1 năm",
+      "words": 7,
+      "chars": 29,
+      "lines": 1,
+      "size": 34,
+      "vw": 2.4,
+      "font": "Playfair Display",
+      "weight": 500,
+      "tracking": -0.01,
+      "leading": 1.16,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.46,
+      "top": 5094,
+      "mixedFonts": [
+       "Playfair Display",
+       "Playfair Display italic"
+      ],
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "60",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 52,
+      "vw": 3.6,
+      "font": "Playfair Display",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "left",
+      "widthRatio": 0.1,
+      "top": 5186,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "09",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 52,
+      "vw": 3.6,
+      "font": "Playfair Display",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.1,
+      "top": 5186,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "20",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 52,
+      "vw": 3.6,
+      "font": "Playfair Display",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.1,
+      "top": 5186,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "44",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 52,
+      "vw": 3.6,
+      "font": "Playfair Display",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "right",
+      "widthRatio": 0.1,
+      "top": 5186,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "Lá thư anh chưa nói hết",
+      "words": 6,
+      "chars": 23,
+      "lines": 1,
+      "size": 42,
+      "vw": 2.9,
+      "font": "Playfair Display",
+      "weight": 500,
+      "tracking": -0.01,
+      "leading": 1.16,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.46,
+      "top": 5811,
+      "mixedFonts": [
+       "Playfair Display",
+       "Playfair Display italic"
+      ],
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "— Anh",
+      "words": 2,
+      "chars": 5,
+      "lines": 1,
+      "size": 40,
+      "vw": 2.8,
+      "font": "Caveat",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "right",
+      "position": "center",
+      "widthRatio": 0.46,
+      "top": 6368,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Những điều mình sẽ làm cùng nhau",
+      "words": 7,
+      "chars": 32,
+      "lines": 2,
+      "size": 50,
+      "vw": 3.5,
+      "font": "Playfair Display",
+      "weight": 500,
+      "tracking": -0.01,
+      "leading": 1.16,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.46,
+      "top": 6774,
+      "mixedFonts": [
+       "Playfair Display",
+       "Playfair Display italic"
+      ],
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "10 tháng. Và còn rất nhiều tháng nữa.",
+      "words": 8,
+      "chars": 37,
+      "lines": 2,
+      "size": 56,
+      "vw": 3.9,
+      "font": "Playfair Display",
+      "weight": 500,
+      "tracking": -0.01,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.75,
+      "top": 7516,
+      "mixedFonts": [
+       "Playfair Display",
+       "Playfair Display italic"
+      ],
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 14,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 2,
+     "centered": 13,
+     "medianWords": 4,
+     "mixedFontHeadings": 8
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Be Vietnam Pro",
+       "share": 0.87,
+       "mono": false
+      },
+      {
+       "family": "Playfair Display",
+       "share": 0.12,
+       "mono": false
+      },
+      {
+       "family": "Caveat",
+       "share": 0,
+       "mono": false
+      }
+     ],
+     "familyCount": 3,
+     "sizes": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      21,
+      23,
+      24,
+      28,
+      32,
+      34,
+      40,
+      42,
+      50,
+      52,
+      56,
+      64,
+      232
+     ],
+     "sizeCount": 23,
+     "notLoaded": [],
+     "body": {
+      "font": "Be Vietnam Pro",
+      "size": 15.5,
+      "leading": 1.95,
+      "weight": 300,
+      "tracking": 0,
+      "contrast": null
+     },
+     "measureChars": 86,
+     "max": {
+      "size": 232,
+      "vw": 16.1,
+      "font": "Playfair Display",
+      "text": "10"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 18,
+     "microLabelShare": 0.07,
+     "microSamples": [
+      "21 · 12 · 2025",
+      "Từ 21 · 12 · 2025",
+      "Chương một",
+      "21 · 12 · 2025",
+      "14 · 02 · 2026",
+      "08 · 03 · 2026"
+     ],
+     "upperShare": 0.08,
+     "centerShare": 0.35,
+     "smallText": 28
+    },
+    "eyebrows": [
+     {
+      "text": "Từ 21 · 12 · 2025",
+      "above": "10",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 11,
+      "top": 170
+     },
+     {
+      "text": "Chương một",
+      "above": "Chuyện của chúng mình",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 11,
+      "top": 1032
+     },
+     {
+      "text": "Chương hai",
+      "above": "Những khung hình của em và anh",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 11,
+      "top": 3990
+     },
+     {
+      "text": "Đếm ngược",
+      "above": "Chặng đường tới kỷ niệm 1 năm",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 11,
+      "top": 5061
+     },
+     {
+      "text": "Chương ba",
+      "above": "Lá thư anh chưa nói hết",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 11,
+      "top": 5778
+     },
+     {
+      "text": "Anh thương em.",
+      "above": "— Anh",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 15.5,
+      "top": 6312
+     },
+     {
+      "text": "Chương bốn",
+      "above": "Những điều mình sẽ làm cùng nhau",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 11,
+      "top": 6741
+     },
+     {
+      "text": "Và cuối cùng",
+      "above": "10 tháng. Và còn rất nhiều tháng nữa.",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 11,
+      "top": 7483
+     }
+    ],
+    "numbered": [
+     {
+      "text": "09",
+      "size": 52,
+      "top": 5186
+     }
+    ],
+    "color": {
+     "bodyBg": "#04060e",
+     "bodyBgHsl": {
+      "h": 228,
+      "s": 0.56,
+      "l": 0.04
+     },
+     "dark": true,
+     "sectionBgs": [],
+     "textColors": [
+      {
+       "color": "#a9a4c7",
+       "share": 0.28
+      },
+      {
+       "color": "#dcd8ef",
+       "share": 0.27
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.14
+      },
+      {
+       "color": "#d6d2ea",
+       "share": 0.12
+      },
+      {
+       "color": "#e9e6f7",
+       "share": 0.07
+      }
+     ],
+     "button": {
+      "bg": "#ffc6d6",
+      "hsl": {
+       "h": 343,
+       "s": 1,
+       "l": 0.89
+      },
+      "fg": "#2a0f1f"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 2,
+     "inHero": 2,
+     "radius": "pill",
+     "height": 58,
+     "withShadow": 2,
+     "withGradient": 1,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Mở món quà ♥",
+      "NHẠC NỀN"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 7,
+     "shadowOverlay": 2,
+     "shadowSamples": [
+      "div.tl-card → rgba(0, 0, 0, 0.28) 0px 22px 60px 0px",
+      "div.tl-card → rgba(0, 0, 0, 0.28) 0px 22px 60px 0px",
+      "div.tl-card → rgba(0, 0, 0, 0.28) 0px 22px 60px 0px",
+      "div.tl-card → rgba(0, 0, 0, 0.28) 0px 22px 60px 0px"
+     ],
+     "gradients": 25,
+     "scrims": 7,
+     "gradientSamples": [
+      "div.sky → radial-gradient(1100px 800px at 50% 116%, rgba(255, 140, 180, 0.15), rgba(0, 0, 0, 0) 62%), radial-gradient(90",
+      "div#gate.gate → radial-gradient(circle at 50% 40%, rgba(30, 22, 70, 0.94), rgba(4, 6, 14, 0.984))",
+      "figure.photo.no-img → linear-gradient(135deg, rgb(36, 26, 77), rgb(58, 36, 84) 52%, rgb(28, 20, 54))",
+      "span.ph → radial-gradient(circle at 50% 36%, rgba(255, 179, 201, 0.16), rgba(0, 0, 0, 0) 66%)"
+     ],
+     "gradientText": 1,
+     "hairlines": 6,
+     "hairlineSamples": [
+      "figure.photo.no-img 440px",
+      "figure.photo.no-img 440px",
+      "figure.photo.no-img 440px",
+      "figure.photo.no-img 440px",
+      "figure.photo.no-img 440px"
+     ],
+     "outlinedBoxes": 24,
+     "dashed": 0,
+     "blurred": 7,
+     "roundedBoxes": 27,
+     "boxRadius": 16,
+     "squareMedia": 0,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 10,
+     "cardRows": [
+      {
+       "count": 6,
+       "iconTopped": false,
+       "rounded": true,
+       "top": 7004
+      }
+     ]
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 0,
+     "fixed": false,
+     "height": 900,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "be vietnam pro",
+     "caveat",
+     "playfair display"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 8092,
+    "margins": {
+     "left": 196,
+     "right": 206
+    },
+    "sections": [
+     {
+      "sel": "header#top.hero",
+      "tag": "header",
+      "top": 0,
+      "height": 900,
+      "words": 29,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "10",
+       "size": 232,
+       "tag": "h1"
+      },
+      "left": 574,
+      "right": 574,
+      "textLeft": 574,
+      "textRight": 574,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#story.section",
+      "tag": "section",
+      "top": 900,
+      "height": 2958,
+      "words": 165,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Chuyện của",
+       "size": 50,
+       "tag": "h2"
+      },
+      "left": 255,
+      "right": 271,
+      "textLeft": 255,
+      "textRight": 271,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#album.section",
+      "tag": "section",
+      "top": 3858,
+      "height": 1006,
+      "words": 63,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Những khung hình",
+       "size": 50,
+       "tag": "h2"
+      },
+      "left": 180,
+      "right": 180,
+      "textLeft": 196,
+      "textRight": 263,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#countdown.section",
+      "tag": "section",
+      "top": 4864,
+      "height": 661,
+      "words": 29,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "60",
+       "size": 52,
+       "tag": "span"
+      },
+      "left": 440,
+      "right": 444,
+      "textLeft": 440,
+      "textRight": 444,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#letter.section",
+      "tag": "section",
+      "top": 5525,
+      "height": 1084,
+      "words": 154,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Lá thư",
+       "size": 42,
+       "tag": "h2"
+      },
+      "left": 386,
+      "right": 388,
+      "textLeft": 386,
+      "textRight": 388,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#promises.section",
+      "tag": "section",
+      "top": 6609,
+      "height": 734,
+      "words": 95,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Những điều",
+       "size": 50,
+       "tag": "h2"
+      },
+      "left": 230,
+      "right": 206,
+      "textLeft": 230,
+      "textRight": 206,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#final.final",
+      "tag": "section",
+      "top": 7343,
+      "height": 748,
+      "words": 48,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "10 tháng.",
+       "size": 56,
+       "tag": "h2"
+      },
+      "left": 388,
+      "right": 388,
+      "textLeft": 388,
+      "textRight": 388,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     }
+    ],
+    "gaps": [
+     {
+      "top": 3688,
+      "height": 300
+     },
+     {
+      "top": 4732,
+      "height": 328
+     },
+     {
+      "top": 5328,
+      "height": 452
+     },
+     {
+      "top": 6420,
+      "height": 320
+     },
+     {
+      "top": 7184,
+      "height": 300
+     }
+    ],
+    "h1s": [
+     {
+      "text": "Gửi em, Quỳnh Anh",
+      "size": 64,
+      "top": 299,
+      "firstScreen": true
+     },
+     {
+      "text": "10 THÁNG",
+      "size": 32,
+      "top": 215,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 255,
+      "n": 6
+     },
+     {
+      "x": 386,
+      "n": 5
+     },
+     {
+      "x": 793,
+      "n": 4
+     },
+     {
+      "x": 960,
+      "n": 2
+     },
+     {
+      "x": 230,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 18,
+    "bodySize": 15,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0.29,
+    "voidBox": {
+     "x": 0,
+     "y": 120,
+     "w": 480,
+     "h": 780
+    }
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 8,
+   "filled": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "motion": {
+    "elements": 150,
+    "css": 124,
+    "transitions": 26,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 8024,
+     "screens": 7.8,
+     "words": 680,
+     "img": 12,
+     "video": 0,
+     "canvas": 0,
+     "svg": 1,
+     "sections": 6,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 0,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [
+      "♥",
+      "✦"
+     ],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "10",
+     "words": 1,
+     "chars": 2,
+     "lines": 1,
+     "size": 199.7,
+     "vw": 26,
+     "font": "Playfair Display",
+     "weight": 500,
+     "tracking": -0.05,
+     "leading": 0.8,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "center",
+     "position": "center",
+     "widthRatio": 0.23,
+     "top": 292,
+     "gradientText": true,
+     "tag": "span",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Gửi em, Quỳnh Anh",
+     "words": 4,
+     "lines": 2,
+     "size": 61.4,
+     "font": "Playfair Display"
+    },
+    "headings": [
+     {
+      "text": "10",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 199.7,
+      "vw": 26,
+      "font": "Playfair Display",
+      "weight": 500,
+      "tracking": -0.05,
+      "leading": 0.8,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.23,
+      "top": 292,
+      "gradientText": true,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "Gửi em, Quỳnh Anh",
+      "words": 4,
+      "chars": 17,
+      "lines": 2,
+      "size": 61.4,
+      "vw": 8,
+      "font": "Playfair Display",
+      "weight": 500,
+      "tracking": -0.01,
+      "leading": 1.14,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.52,
+      "top": 364,
+      "mixedFonts": [
+       "Playfair Display",
+       "Playfair Display italic"
+      ],
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Quỳnh Anh & Anh",
+      "words": 4,
+      "chars": 15,
+      "lines": 1,
+      "size": 30.7,
+      "vw": 4,
+      "font": "Playfair Display",
+      "weight": 400,
+      "tracking": 0.01,
+      "leading": 1.7,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.36,
+      "top": 502,
+      "mixedFonts": [
+       "Playfair Display",
+       "Playfair Display italic"
+      ],
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Chuyện của chúng mình",
+      "words": 4,
+      "chars": 21,
+      "lines": 1,
+      "size": 38.4,
+      "vw": 5,
+      "font": "Playfair Display",
+      "weight": 500,
+      "tracking": -0.01,
+      "leading": 1.16,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.86,
+      "top": 1141,
+      "mixedFonts": [
+       "Playfair Display",
+       "Playfair Display italic"
+      ],
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Những khung hình của em và anh",
+      "words": 7,
+      "chars": 30,
+      "lines": 1,
+      "size": 38.4,
+      "vw": 5,
+      "font": "Playfair Display",
+      "weight": 500,
+      "tracking": -0.01,
+      "leading": 1.16,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.86,
+      "top": 4533,
+      "mixedFonts": [
+       "Playfair Display",
+       "Playfair Display italic"
+      ],
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Chặng đường tới kỷ niệm 1 năm",
+      "words": 7,
+      "chars": 29,
+      "lines": 1,
+      "size": 27.6,
+      "vw": 3.6,
+      "font": "Playfair Display",
+      "weight": 500,
+      "tracking": -0.01,
+      "leading": 1.16,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.81,
+      "top": 5399,
+      "mixedFonts": [
+       "Playfair Display",
+       "Playfair Display italic"
+      ],
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "34",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 43,
+      "vw": 5.6,
+      "font": "Playfair Display",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "right",
+      "widthRatio": 0.17,
+      "top": 5483,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "60",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 43,
+      "vw": 5.6,
+      "font": "Playfair Display",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "left",
+      "widthRatio": 0.17,
+      "top": 5484,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "09",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 43,
+      "vw": 5.6,
+      "font": "Playfair Display",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "left",
+      "widthRatio": 0.17,
+      "top": 5484,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "20",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 43,
+      "vw": 5.6,
+      "font": "Playfair Display",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "right",
+      "widthRatio": 0.17,
+      "top": 5484,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "Lá thư anh chưa nói hết",
+      "words": 6,
+      "chars": 23,
+      "lines": 1,
+      "size": 33.8,
+      "vw": 4.4,
+      "font": "Playfair Display",
+      "weight": 500,
+      "tracking": -0.01,
+      "leading": 1.16,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.81,
+      "top": 5973,
+      "mixedFonts": [
+       "Playfair Display",
+       "Playfair Display italic"
+      ],
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "— Anh",
+      "words": 2,
+      "chars": 5,
+      "lines": 1,
+      "size": 30.7,
+      "vw": 4,
+      "font": "Caveat",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "right",
+      "position": "center",
+      "widthRatio": 0.8,
+      "top": 6551,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Những điều mình sẽ làm cùng nhau",
+      "words": 7,
+      "chars": 32,
+      "lines": 1,
+      "size": 38.4,
+      "vw": 5,
+      "font": "Playfair Display",
+      "weight": 500,
+      "tracking": -0.01,
+      "leading": 1.16,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.86,
+      "top": 6837,
+      "mixedFonts": [
+       "Playfair Display",
+       "Playfair Display italic"
+      ],
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "10 tháng. Và còn rất nhiều tháng nữa.",
+      "words": 8,
+      "chars": 37,
+      "lines": 2,
+      "size": 43,
+      "vw": 5.6,
+      "font": "Playfair Display",
+      "weight": 500,
+      "tracking": -0.01,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 7503,
+      "mixedFonts": [
+       "Playfair Display",
+       "Playfair Display italic"
+      ],
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 14,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 2,
+     "centered": 13,
+     "medianWords": 4,
+     "mixedFontHeadings": 8
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Be Vietnam Pro",
+       "share": 0.87,
+       "mono": false
+      },
+      {
+       "family": "Playfair Display",
+       "share": 0.12,
+       "mono": false
+      },
+      {
+       "family": "Caveat",
+       "share": 0,
+       "mono": false
+      }
+     ],
+     "familyCount": 3,
+     "sizes": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      20,
+      21,
+      23,
+      26,
+      28,
+      31,
+      34,
+      38,
+      43,
+      61,
+      200
+     ],
+     "sizeCount": 20,
+     "notLoaded": [],
+     "body": {
+      "font": "Be Vietnam Pro",
+      "size": 15.5,
+      "leading": 1.95,
+      "weight": 300,
+      "tracking": 0,
+      "contrast": null
+     },
+     "measureChars": 81,
+     "max": {
+      "size": 199.7,
+      "vw": 26,
+      "font": "Playfair Display",
+      "text": "10"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 18,
+     "microLabelShare": 0.07,
+     "microSamples": [
+      "21 · 12 · 2025",
+      "Từ 21 · 12 · 2025",
+      "Chương một",
+      "21 · 12 · 2025",
+      "14 · 02 · 2026",
+      "08 · 03 · 2026"
+     ],
+     "upperShare": 0.08,
+     "centerShare": 0.35,
+     "smallText": 28
+    },
+    "eyebrows": [
+     {
+      "text": "Từ 21 · 12 · 2025",
+      "above": "10",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 11,
+      "top": 247
+     },
+     {
+      "text": "Chương một",
+      "above": "Chuyện của chúng mình",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 11,
+      "top": 1108
+     },
+     {
+      "text": "Chương hai",
+      "above": "Những khung hình của em và anh",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 11,
+      "top": 4500
+     },
+     {
+      "text": "Đếm ngược",
+      "above": "Chặng đường tới kỷ niệm 1 năm",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 11,
+      "top": 5367
+     },
+     {
+      "text": "Chương ba",
+      "above": "Lá thư anh chưa nói hết",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 11,
+      "top": 5941
+     },
+     {
+      "text": "Chương bốn",
+      "above": "Những điều mình sẽ làm cùng nhau",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 11,
+      "top": 6804
+     },
+     {
+      "text": "Và cuối cùng",
+      "above": "10 tháng. Và còn rất nhiều tháng nữa.",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 11,
+      "top": 7470
+     }
+    ],
+    "numbered": [
+     {
+      "text": "09",
+      "size": 43,
+      "top": 5484
+     }
+    ],
+    "color": {
+     "bodyBg": "#04060e",
+     "bodyBgHsl": {
+      "h": 228,
+      "s": 0.56,
+      "l": 0.04
+     },
+     "dark": true,
+     "sectionBgs": [],
+     "textColors": [
+      {
+       "color": "#a9a4c7",
+       "share": 0.28
+      },
+      {
+       "color": "#dcd8ef",
+       "share": 0.27
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.14
+      },
+      {
+       "color": "#d6d2ea",
+       "share": 0.12
+      },
+      {
+       "color": "#e9e6f7",
+       "share": 0.07
+      }
+     ],
+     "button": {
+      "bg": "#ffc6d6",
+      "hsl": {
+       "h": 343,
+       "s": 1,
+       "l": 0.89
+      },
+      "fg": "#2a0f1f"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 2,
+     "inHero": 2,
+     "radius": "pill",
+     "height": 58,
+     "withShadow": 2,
+     "withGradient": 1,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Mở món quà ♥",
+      "NHẠC NỀN"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 7,
+     "shadowOverlay": 2,
+     "shadowSamples": [
+      "div.tl-card → rgba(0, 0, 0, 0.28) 0px 22px 60px 0px",
+      "div.tl-card → rgba(0, 0, 0, 0.28) 0px 22px 60px 0px",
+      "div.tl-card → rgba(0, 0, 0, 0.28) 0px 22px 60px 0px",
+      "div.tl-card → rgba(0, 0, 0, 0.28) 0px 22px 60px 0px"
+     ],
+     "gradients": 26,
+     "scrims": 7,
+     "gradientSamples": [
+      "div.sky → radial-gradient(1100px 800px at 50% 116%, rgba(255, 140, 180, 0.15), rgba(0, 0, 0, 0) 62%), radial-gradient(90",
+      "div#gate.gate → radial-gradient(circle at 50% 40%, rgba(30, 22, 70, 0.94), rgba(4, 6, 14, 0.984))",
+      "figure.photo.no-img → linear-gradient(135deg, rgb(36, 26, 77), rgb(58, 36, 84) 52%, rgb(28, 20, 54))",
+      "span.ph → radial-gradient(circle at 50% 36%, rgba(255, 179, 201, 0.16), rgba(0, 0, 0, 0) 66%)"
+     ],
+     "gradientText": 1,
+     "hairlines": 6,
+     "hairlineSamples": [
+      "figure.photo.no-img 680px",
+      "figure.photo.no-img 680px",
+      "figure.photo.no-img 680px",
+      "figure.photo.no-img 680px",
+      "figure.photo.no-img 680px"
+     ],
+     "outlinedBoxes": 20,
+     "dashed": 0,
+     "blurred": 7,
+     "roundedBoxes": 23,
+     "boxRadius": 16,
+     "squareMedia": 0,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 10,
+     "cardRows": [
+      {
+       "count": 6,
+       "iconTopped": false,
+       "rounded": true,
+       "top": 6975
+      }
+     ]
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 0,
+     "fixed": false,
+     "height": 1024,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "be vietnam pro",
+     "caveat",
+     "playfair display"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 8024,
+    "margins": {
+     "left": 40,
+     "right": 55
+    },
+    "sections": [
+     {
+      "sel": "header#top.hero",
+      "tag": "header",
+      "top": 0,
+      "height": 1024,
+      "words": 29,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "10",
+       "size": 200,
+       "tag": "h1"
+      },
+      "left": 247,
+      "right": 247,
+      "textLeft": 247,
+      "textRight": 247,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#story.section",
+      "tag": "section",
+      "top": 1024,
+      "height": 3392,
+      "words": 165,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Chuyện của",
+       "size": 38,
+       "tag": "h2"
+      },
+      "left": 83,
+      "right": 66,
+      "textLeft": 83,
+      "textRight": 66,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#album.section",
+      "tag": "section",
+      "top": 4416,
+      "height": 819,
+      "words": 63,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Những khung hình",
+       "size": 38,
+       "tag": "h2"
+      },
+      "left": 24,
+      "right": 24,
+      "textLeft": 40,
+      "textRight": 62,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#countdown.section",
+      "tag": "section",
+      "top": 5235,
+      "height": 514,
+      "words": 29,
+      "media": 0,
+      "middle": 28,
+      "heading": {
+       "text": "60",
+       "size": 43,
+       "tag": "span"
+      },
+      "left": 122,
+      "right": 126,
+      "textLeft": 122,
+      "textRight": 126,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#letter.section",
+      "tag": "section",
+      "top": 5749,
+      "height": 971,
+      "words": 154,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Lá thư",
+       "size": 34,
+       "tag": "h2"
+      },
+      "left": 71,
+      "right": 73,
+      "textLeft": 71,
+      "textRight": 73,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#promises.section",
+      "tag": "section",
+      "top": 6720,
+      "height": 658,
+      "words": 95,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Những điều",
+       "size": 38,
+       "tag": "h2"
+      },
+      "left": 74,
+      "right": 55,
+      "textLeft": 74,
+      "textRight": 55,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#final.final",
+      "tag": "section",
+      "top": 7378,
+      "height": 646,
+      "words": 48,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "10 tháng.",
+       "size": 43,
+       "tag": "h2"
+      },
+      "left": 106,
+      "right": 106,
+      "textLeft": 106,
+      "textRight": 106,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     }
+    ],
+    "gaps": [
+     {
+      "top": 5616,
+      "height": 324
+     }
+    ],
+    "h1s": [
+     {
+      "text": "Gửi em, Quỳnh Anh",
+      "size": 61,
+      "top": 364,
+      "firstScreen": true
+     },
+     {
+      "text": "10 THÁNG",
+      "size": 32,
+      "top": 292,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 83,
+      "n": 10
+     },
+     {
+      "x": 71,
+      "n": 7
+     },
+     {
+      "x": 441,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 18,
+    "bodySize": 15,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 10,
+   "filled": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "motion": {
+    "elements": 105,
+    "css": 79,
+    "transitions": 26,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 7764,
+     "screens": 9.2,
+     "words": 678,
+     "img": 12,
+     "video": 0,
+     "canvas": 0,
+     "svg": 1,
+     "sections": 6,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 0,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [
+      "♥",
+      "✦"
+     ],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "10",
+     "words": 1,
+     "chars": 2,
+     "lines": 1,
+     "size": 118,
+     "vw": 30.3,
+     "font": "Playfair Display",
+     "weight": 500,
+     "tracking": -0.05,
+     "leading": 0.8,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "center",
+     "position": "center",
+     "widthRatio": 0.27,
+     "top": 252,
+     "gradientText": true,
+     "tag": "span",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Gửi em, Quỳnh Anh",
+     "words": 4,
+     "lines": 2,
+     "size": 40,
+     "font": "Playfair Display"
+    },
+    "headings": [
+     {
+      "text": "10",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 118,
+      "vw": 30.3,
+      "font": "Playfair Display",
+      "weight": 500,
+      "tracking": -0.05,
+      "leading": 0.8,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.27,
+      "top": 252,
+      "gradientText": true,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "Gửi em, Quỳnh Anh",
+      "words": 4,
+      "chars": 17,
+      "lines": 2,
+      "size": 40,
+      "vw": 10.3,
+      "font": "Playfair Display",
+      "weight": 500,
+      "tracking": -0.01,
+      "leading": 1.14,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 298,
+      "mixedFonts": [
+       "Playfair Display",
+       "Playfair Display italic"
+      ],
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Chuyện của chúng mình",
+      "words": 4,
+      "chars": 21,
+      "lines": 1,
+      "size": 30,
+      "vw": 7.7,
+      "font": "Playfair Display",
+      "weight": 500,
+      "tracking": -0.01,
+      "leading": 1.16,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 953,
+      "mixedFonts": [
+       "Playfair Display",
+       "Playfair Display italic"
+      ],
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "♥",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 23,
+      "vw": 5.9,
+      "font": "Be Vietnam Pro",
+      "weight": 400,
+      "tracking": 0.014,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.04,
+      "top": 1151,
+      "tag": "b",
+      "kind": "heading"
+     },
+     {
+      "text": "♥",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 23,
+      "vw": 5.9,
+      "font": "Be Vietnam Pro",
+      "weight": 400,
+      "tracking": 0.014,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.04,
+      "top": 1576,
+      "tag": "b",
+      "kind": "heading"
+     },
+     {
+      "text": "♥",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 23,
+      "vw": 5.9,
+      "font": "Be Vietnam Pro",
+      "weight": 400,
+      "tracking": 0.014,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.04,
+      "top": 2002,
+      "tag": "b",
+      "kind": "heading"
+     },
+     {
+      "text": "♥",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 23,
+      "vw": 5.9,
+      "font": "Be Vietnam Pro",
+      "weight": 400,
+      "tracking": 0.014,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.04,
+      "top": 2427,
+      "tag": "b",
+      "kind": "heading"
+     },
+     {
+      "text": "♥",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 23,
+      "vw": 5.9,
+      "font": "Be Vietnam Pro",
+      "weight": 400,
+      "tracking": 0.014,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.04,
+      "top": 2852,
+      "tag": "b",
+      "kind": "heading"
+     },
+     {
+      "text": "Những khung hình của em và anh",
+      "words": 7,
+      "chars": 30,
+      "lines": 2,
+      "size": 30,
+      "vw": 7.7,
+      "font": "Playfair Display",
+      "weight": 500,
+      "tracking": -0.01,
+      "leading": 1.16,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 3354,
+      "mixedFonts": [
+       "Playfair Display",
+       "Playfair Display italic"
+      ],
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "♥",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 23,
+      "vw": 5.9,
+      "font": "Be Vietnam Pro",
+      "weight": 400,
+      "tracking": 0.014,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.04,
+      "top": 3619,
+      "tag": "b",
+      "kind": "heading"
+     },
+     {
+      "text": "♥",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 23,
+      "vw": 5.9,
+      "font": "Be Vietnam Pro",
+      "weight": 400,
+      "tracking": 0.014,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "left",
+      "widthRatio": 0.04,
+      "top": 3832,
+      "tag": "b",
+      "kind": "heading"
+     },
+     {
+      "text": "♥",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 23,
+      "vw": 5.9,
+      "font": "Be Vietnam Pro",
+      "weight": 400,
+      "tracking": 0.014,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "right",
+      "widthRatio": 0.04,
+      "top": 3832,
+      "tag": "b",
+      "kind": "heading"
+     },
+     {
+      "text": "♥",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 23,
+      "vw": 5.9,
+      "font": "Be Vietnam Pro",
+      "weight": 400,
+      "tracking": 0.014,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "left",
+      "widthRatio": 0.04,
+      "top": 3974,
+      "tag": "b",
+      "kind": "heading"
+     },
+     {
+      "text": "♥",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 23,
+      "vw": 5.9,
+      "font": "Be Vietnam Pro",
+      "weight": 400,
+      "tracking": 0.014,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "right",
+      "widthRatio": 0.04,
+      "top": 3974,
+      "tag": "b",
+      "kind": "heading"
+     },
+     {
+      "text": "♥",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 23,
+      "vw": 5.9,
+      "font": "Be Vietnam Pro",
+      "weight": 400,
+      "tracking": 0.014,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "left",
+      "widthRatio": 0.04,
+      "top": 4116,
+      "tag": "b",
+      "kind": "heading"
+     },
+     {
+      "text": "Chặng đường tới kỷ niệm 1 năm",
+      "words": 7,
+      "chars": 29,
+      "lines": 2,
+      "size": 23,
+      "vw": 5.9,
+      "font": "Playfair Display",
+      "weight": 500,
+      "tracking": -0.01,
+      "leading": 1.16,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.7,
+      "top": 4424,
+      "mixedFonts": [
+       "Playfair Display",
+       "Playfair Display italic"
+      ],
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "60",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 30,
+      "vw": 7.7,
+      "font": "Playfair Display",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "left",
+      "widthRatio": 0.3,
+      "top": 4529,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "09",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 30,
+      "vw": 7.7,
+      "font": "Playfair Display",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "right",
+      "widthRatio": 0.3,
+      "top": 4529,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "20",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 30,
+      "vw": 7.7,
+      "font": "Playfair Display",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "left",
+      "widthRatio": 0.3,
+      "top": 4624,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "24",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 30,
+      "vw": 7.7,
+      "font": "Playfair Display",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "right",
+      "widthRatio": 0.3,
+      "top": 4624,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "Lá thư anh chưa nói hết",
+      "words": 6,
+      "chars": 23,
+      "lines": 1,
+      "size": 28,
+      "vw": 7.2,
+      "font": "Playfair Display",
+      "weight": 500,
+      "tracking": -0.01,
+      "leading": 1.16,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.75,
+      "top": 5077,
+      "mixedFonts": [
+       "Playfair Display",
+       "Playfair Display italic"
+      ],
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "— Anh",
+      "words": 2,
+      "chars": 5,
+      "lines": 1,
+      "size": 30,
+      "vw": 7.7,
+      "font": "Caveat",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "right",
+      "position": "center",
+      "widthRatio": 0.73,
+      "top": 5981,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Những điều mình sẽ làm cùng nhau",
+      "words": 7,
+      "chars": 32,
+      "lines": 2,
+      "size": 30,
+      "vw": 7.7,
+      "font": "Playfair Display",
+      "weight": 500,
+      "tracking": -0.01,
+      "leading": 1.16,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 6234,
+      "mixedFonts": [
+       "Playfair Display",
+       "Playfair Display italic"
+      ],
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "10 tháng. Và còn rất nhiều tháng nữa.",
+      "words": 8,
+      "chars": 37,
+      "lines": 3,
+      "size": 31,
+      "vw": 7.9,
+      "font": "Playfair Display",
+      "weight": 500,
+      "tracking": -0.01,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 7225,
+      "mixedFonts": [
+       "Playfair Display",
+       "Playfair Display italic"
+      ],
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 24,
+     "maxLines": 3,
+     "over2Lines": 1,
+     "statements": 1,
+     "centered": 23,
+     "medianWords": 1,
+     "mixedFontHeadings": 7
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Be Vietnam Pro",
+       "share": 0.87,
+       "mono": false
+      },
+      {
+       "family": "Playfair Display",
+       "share": 0.13,
+       "mono": false
+      },
+      {
+       "family": "Caveat",
+       "share": 0,
+       "mono": false
+      }
+     ],
+     "familyCount": 3,
+     "sizes": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      20,
+      21,
+      23,
+      28,
+      30,
+      31,
+      40,
+      118
+     ],
+     "sizeCount": 18,
+     "notLoaded": [],
+     "body": {
+      "font": "Be Vietnam Pro",
+      "size": 15.5,
+      "leading": 1.95,
+      "weight": 300,
+      "tracking": 0,
+      "contrast": null
+     },
+     "measureChars": 38,
+     "max": {
+      "size": 118,
+      "vw": 30.3,
+      "font": "Playfair Display",
+      "text": "10"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 19,
+     "microLabelShare": 0.072,
+     "microSamples": [
+      "21 · 12 · 2025",
+      "Từ 21 · 12 · 2025",
+      "tháng",
+      "Chương một",
+      "21 · 12 · 2025",
+      "14 · 02 · 2026"
+     ],
+     "upperShare": 0.08,
+     "centerShare": 0.35,
+     "smallText": 28
+    },
+    "eyebrows": [
+     {
+      "text": "Từ 21 · 12 · 2025",
+      "above": "10",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 11,
+      "top": 207
+     },
+     {
+      "text": "Chương một",
+      "above": "Chuyện của chúng mình",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 11,
+      "top": 920
+     },
+     {
+      "text": "Chương hai",
+      "above": "Những khung hình của em và anh",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 11,
+      "top": 3321
+     },
+     {
+      "text": "Đếm ngược",
+      "above": "Chặng đường tới kỷ niệm 1 năm",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 11,
+      "top": 4392
+     },
+     {
+      "text": "Chương ba",
+      "above": "Lá thư anh chưa nói hết",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 11,
+      "top": 5044
+     },
+     {
+      "text": "Chương bốn",
+      "above": "Những điều mình sẽ làm cùng nhau",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 11,
+      "top": 6202
+     },
+     {
+      "text": "Và cuối cùng",
+      "above": "10 tháng. Và còn rất nhiều tháng nữa.",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 11,
+      "top": 7193
+     }
+    ],
+    "numbered": [
+     {
+      "text": "09",
+      "size": 30,
+      "top": 4529
+     }
+    ],
+    "color": {
+     "bodyBg": "#04060e",
+     "bodyBgHsl": {
+      "h": 228,
+      "s": 0.56,
+      "l": 0.04
+     },
+     "dark": true,
+     "sectionBgs": [],
+     "textColors": [
+      {
+       "color": "#a9a4c7",
+       "share": 0.27
+      },
+      {
+       "color": "#dcd8ef",
+       "share": 0.27
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.14
+      },
+      {
+       "color": "#d6d2ea",
+       "share": 0.12
+      },
+      {
+       "color": "#e9e6f7",
+       "share": 0.07
+      }
+     ],
+     "button": {
+      "bg": "#ffc6d6",
+      "hsl": {
+       "h": 343,
+       "s": 1,
+       "l": 0.89
+      },
+      "fg": "#2a0f1f"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 1,
+     "inHero": 1,
+     "radius": "pill",
+     "height": 58,
+     "withShadow": 1,
+     "withGradient": 1,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Mở món quà ♥"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 7,
+     "shadowOverlay": 2,
+     "shadowSamples": [
+      "div.tl-card → rgba(0, 0, 0, 0.28) 0px 22px 60px 0px",
+      "div.tl-card → rgba(0, 0, 0, 0.28) 0px 22px 60px 0px",
+      "div.tl-card → rgba(0, 0, 0, 0.28) 0px 22px 60px 0px",
+      "div.tl-card → rgba(0, 0, 0, 0.28) 0px 22px 60px 0px"
+     ],
+     "gradients": 27,
+     "scrims": 14,
+     "gradientSamples": [
+      "div.sky → radial-gradient(1100px 800px at 50% 116%, rgba(255, 140, 180, 0.15), rgba(0, 0, 0, 0) 62%), radial-gradient(90",
+      "div#gate.gate → radial-gradient(circle at 50% 40%, rgba(30, 22, 70, 0.94), rgba(4, 6, 14, 0.984))",
+      "button#openGift.btn-open → linear-gradient(120deg, rgb(255, 198, 214), rgb(255, 157, 187))",
+      "figure.photo.no-img → linear-gradient(135deg, rgb(36, 26, 77), rgb(58, 36, 84) 52%, rgb(28, 20, 54))"
+     ],
+     "gradientText": 1,
+     "hairlines": 6,
+     "hairlineSamples": [
+      "figure.photo.no-img 302px",
+      "figure.photo.no-img 302px",
+      "figure.photo.no-img 302px",
+      "figure.photo.no-img 302px",
+      "figure.photo.no-img 302px"
+     ],
+     "outlinedBoxes": 20,
+     "dashed": 0,
+     "blurred": 7,
+     "roundedBoxes": 23,
+     "boxRadius": 16,
+     "squareMedia": 0,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 10,
+     "cardRows": [
+      {
+       "count": 6,
+       "iconTopped": false,
+       "rounded": true,
+       "top": 6385
+      }
+     ]
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 0,
+     "fixed": false,
+     "height": 844,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "be vietnam pro",
+     "caveat",
+     "playfair display"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 7764,
+    "margins": {
+     "left": 24,
+     "right": 24
+    },
+    "sections": [
+     {
+      "sel": "header#top.hero",
+      "tag": "header",
+      "top": 0,
+      "height": 844,
+      "words": 29,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "10",
+       "size": 118,
+       "tag": "h1"
+      },
+      "left": 73,
+      "right": 73,
+      "textLeft": 73,
+      "textRight": 73,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#story.section",
+      "tag": "section",
+      "top": 844,
+      "height": 2401,
+      "words": 165,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Chuyện của",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 38,
+      "right": 38,
+      "textLeft": 38,
+      "textRight": 38,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#album.section",
+      "tag": "section",
+      "top": 3245,
+      "height": 1036,
+      "words": 63,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Những khung hình",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 24,
+      "right": 24,
+      "textLeft": 40,
+      "textRight": 45,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#countdown.section",
+      "tag": "section",
+      "top": 4281,
+      "height": 595,
+      "words": 29,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "60",
+       "size": 30,
+       "tag": "span"
+      },
+      "left": 61,
+      "right": 61,
+      "textLeft": 61,
+      "textRight": 61,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#letter.section",
+      "tag": "section",
+      "top": 4875,
+      "height": 1250,
+      "words": 154,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Lá thư",
+       "size": 28,
+       "tag": "h2"
+      },
+      "left": 49,
+      "right": 53,
+      "textLeft": 49,
+      "textRight": 53,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#promises.section",
+      "tag": "section",
+      "top": 6126,
+      "height": 987,
+      "words": 95,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Những điều",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 37,
+      "right": 37,
+      "textLeft": 37,
+      "textRight": 37,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#final.final",
+      "tag": "section",
+      "top": 7113,
+      "height": 651,
+      "words": 48,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "10 tháng.",
+       "size": 31,
+       "tag": "h2"
+      },
+      "left": 29,
+      "right": 29,
+      "textLeft": 29,
+      "textRight": 29,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     }
+    ],
+    "gaps": [
+     {
+      "top": 4764,
+      "height": 280
+     }
+    ],
+    "h1s": [
+     {
+      "text": "Gửi em, Quỳnh Anh",
+      "size": 40,
+      "top": 298,
+      "firstScreen": true
+     },
+     {
+      "text": "10 THÁNG",
+      "size": 32,
+      "top": 252,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 74,
+      "n": 13
+     },
+     {
+      "x": 49,
+      "n": 5
+     }
+    ],
+    "leftBlocks": 18,
+    "bodySize": 15,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "WARN",
+   "id": "mixed-font-headline",
+   "width": 1440,
+   "message": "8 headline(s) switch typeface or to italic mid-line (the \"one italic serif word\" move).",
+   "fix": "Set the whole headline in one face. Emphasis comes from the words.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "eyebrow",
+   "width": 1440,
+   "message": "8 eyebrow/kicker label(s) above headings: \"Từ 21 · 12 · 2025\" above \"10\"; \"Chương một\" above \"Chuyện của chúng mình\"; \"Chương hai\" above \"Những khung hình của em và anh\"; \"Đếm ngược\" above \"Chặng đường tới kỷ niệm 1 năm\"; \"Chương ba\" above \"Lá thư anh chưa nói hết\"",
+   "fix": "Delete them. If the label carried real information, fold it into the headline or the supporting sentence.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "numbering",
+   "width": 1440,
+   "message": "Decorative index numbers: \"09\"",
+   "fix": "Remove them. If order truly matters, write it into the words (\"First, …\") or use a real <ol>.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "micro-label",
+   "width": 1440,
+   "message": "18 tiny uppercase letter-spaced labels (e.g. \"21 · 12 · 2025\", \"Từ 21 · 12 · 2025\", \"Chương một\", \"21 · 12 · 2025\").",
+   "fix": "Use sentence-case text at a readable size, or delete the label.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "emoji",
+   "width": 1440,
+   "message": "Emoji in the page: ♥ ✦",
+   "fix": "Remove. Use words or real imagery.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "gradient",
+   "width": 1440,
+   "message": "25 gradient fill(s): div.sky → radial-gradient(1100px 800px at 50% 116%, rgba(255, 140, 180, 0.15), rgba(0, 0, 0, 0) 62%), radial-gradient(90 | div#gate.gate → radial-gradient(circle at 50% 40%, rgba(30, 22, 70, 0.94), rgba(4, 6, 14, 0.984)) | figure.photo.no-img → linear-gradient(135deg, rgb(36, 26, 77), rgb(58, 36, 84) 52%, rgb(28, 20, 54))",
+   "fix": "Use a flat colour or a real image. The only gradient allowed by default is a neutral scrim over a photo for legibility.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "gradient-text",
+   "width": 1440,
+   "message": "1 gradient-filled text element(s).",
+   "fix": "Solid colour text.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "shadow",
+   "width": 1440,
+   "message": "7 box-shadow(s) on elements at rest: div.tl-card → rgba(0, 0, 0, 0.28) 0px 22px 60px 0px | div.tl-card → rgba(0, 0, 0, 0.28) 0px 22px 60px 0px | div.tl-card → rgba(0, 0, 0, 0.28) 0px 22px 60px 0px",
+   "fix": "Remove. Separate surfaces with a tone step or space. Shadows are for things that really float (menus, dialogs, sticky bars).",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "text-shadow",
+   "width": 1440,
+   "message": "10 text-shadow(s).",
+   "fix": "Remove; fix legibility with a scrim or a different crop.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "button-fx",
+   "width": 1440,
+   "message": "Buttons with gradient fill and shadow/glow.",
+   "fix": "Flat fill, one colour.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "hairline",
+   "width": 1440,
+   "message": "6 thin rule(s)/divider line(s): figure.photo.no-img 440px | figure.photo.no-img 440px | figure.photo.no-img 440px | figure.photo.no-img 440px",
+   "fix": "Delete. Separate with space, a tone change, or scale. Lines are only for real tables and form fields.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "outlined-box",
+   "width": 1440,
+   "message": "24 boxes drawn with a 1px outline.",
+   "fix": "Define a surface by its fill (one tone step from the page) or leave the content unboxed.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "glass",
+   "width": 1440,
+   "message": "7 backdrop-blur surfaces.",
+   "fix": "One blurred sticky bar at most; glass cards are a tell.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "size-count",
+   "width": 1440,
+   "message": "23 different font sizes (9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 21, 23, 24, 28, 32, 34, 40, 42, 50, 52, 56, 64, 232).",
+   "fix": "A page needs about five: display, heading, lead, body, small.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "body-size",
+   "width": 1440,
+   "message": "Body text is 15.5px.",
+   "fix": "Body copy 16–20px.",
+   "alsoAt": [
+    768
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "few-pictures",
+   "width": 1440,
+   "message": "Only 0 picture(s) on the page (0 photographs, footage or raster images, 0 interface fragments). Drawings in SVG do not count.",
+   "fix": "Find real pictures of the subject's world with scripts/assets.mjs (photographs, archival images, maps, engravings, footage), download them to assets/ and give them room: a hero picture, one per section that has a subject, a full-width band. At least four, usually six to twelve."
+  },
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1440,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  },
+  {
+   "level": "FAIL",
+   "id": "small-text",
+   "width": 1440,
+   "message": "28 text blocks under 13px.",
+   "fix": "Nothing meant to be read goes below 13px.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "blank-gap",
+   "width": 1440,
+   "message": "A 452px stretch at 5328px holds nothing.",
+   "fix": "Check that it is a deliberate rest (once per page at most); otherwise close it to the normal section gap."
+  },
+  {
+   "level": "WARN",
+   "id": "many-h1",
+   "width": 1440,
+   "message": "2 h1 elements.",
+   "fix": "One h1 per page; section titles are h2.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "hero-void",
+   "width": 1440,
+   "message": "29% of the first screen is one empty block (480×780px at 0,120).",
+   "fix": "Place the void on purpose or fill it: move the picture, the film or one fact into it, grow the headline to meet it, or shrink the screen to its content. A void reads as placed only when something closes it on the far side and it is the screen's one rest."
+  },
+  {
+   "level": "FAIL",
+   "id": "covered-text",
+   "width": 1440,
+   "message": "Large text lies under another element at some scroll position: \"Quỳnh Anh\" (screen 1, 100% hidden); \"Anh\" (screen 8, 100% hidden); \"Chuyện của chúng mình\" (screen 2, 100% hidden); \"Ngày mình bắt đầu\" (screen 2, 100% hidden)",
+   "fix": "Nothing may sit on top of a headline or statement. Move the picture, shorten the pinned run, or raise the text above it (z-index) and give it a ground.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "long-pin",
+   "width": 1440,
+   "message": "The same large text stays on screen for 9 screens in a row: \"Gửi em, Quỳnh Anh\"",
+   "fix": "A pinned element earns two screens, and something must change at each. Shorten the run or give every screen its own content."
+  },
+  {
+   "level": "FAIL",
+   "id": "headline-lines",
+   "width": 390,
+   "message": "1 headline(s) wrap past two lines at 390px: \"10 tháng. Và còn rất nhiều tháng nữa.\" → 3 lines (8 words, 31px)",
+   "fix": "Cut words first (a headline is a title, not a sentence). Then give it a wider measure. Lower the size only as a last resort and never below the scale you chose. A real statement paragraph belongs in a <p> or <blockquote> at 24px or less."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "/home/DoanQuangLam/Projects/QuynhAnh/.taste-skill/before/desktop-fold.jpg",
+   "pages": [
+    "/home/DoanQuangLam/Projects/QuynhAnh/.taste-skill/before/desktop-page-01.jpg",
+    "/home/DoanQuangLam/Projects/QuynhAnh/.taste-skill/before/desktop-page-02.jpg",
+    "/home/DoanQuangLam/Projects/QuynhAnh/.taste-skill/before/desktop-page-03.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "/home/DoanQuangLam/Projects/QuynhAnh/.taste-skill/before/tablet-fold.jpg",
+   "pages": [
+    "/home/DoanQuangLam/Projects/QuynhAnh/.taste-skill/before/tablet-page-01.jpg",
+    "/home/DoanQuangLam/Projects/QuynhAnh/.taste-skill/before/tablet-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "/home/DoanQuangLam/Projects/QuynhAnh/.taste-skill/before/mobile-fold.jpg",
+   "pages": [
+    "/home/DoanQuangLam/Projects/QuynhAnh/.taste-skill/before/mobile-page-01.jpg",
+    "/home/DoanQuangLam/Projects/QuynhAnh/.taste-skill/before/mobile-page-02.jpg"
+   ],
+   "film": []
+  }
+ ]
+}

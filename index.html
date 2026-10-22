@@ -1,0 +1,2471 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Khoảng thời gian bên em · Gửi Quỳnh Anh</title>
+<meta name="description" content="Một lá thư nhỏ cho chặng đường mình đã đi qua.">
+<meta name="theme-color" content="#121821">
+<meta property="og:title" content="Khoảng thời gian bên em· Gửi Quỳnh Anh">
+<meta property="og:description" content="Một lá thư nhỏ cho chặng đường mình đã đi qua.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23ede5d5'/%3E%3Ctext x='32' y='44' text-anchor='middle' font-family='Georgia,serif' font-size='32' fill='%23a33a32'%3E10%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400;1,6..72,500&family=Be+Vietnam+Pro:wght@400;500;600&display=swap" rel="stylesheet">
+<script>
+(function () {
+  const html = document.documentElement;
+  html.classList.add("has-js");
+
+  try {
+    const params = new URLSearchParams(window.location.search);
+    const letter = params.get("letter");
+
+    if (letter === "1") {
+      sessionStorage.removeItem("qa-letter-opened");
+      html.classList.add("letter-wait");
+      return;
+    }
+
+    if (letter === "0") {
+      html.classList.add("letter-skip");
+      return;
+    }
+
+    if (sessionStorage.getItem("qa-letter-opened") === "1") {
+      html.classList.add("letter-skip");
+      return;
+    }
+  } catch (error) {
+    // Storage can be unavailable. In that case the letter still opens normally.
+  }
+
+  html.classList.add("letter-wait");
+})();
+</script>
+<style>
+/* ============================================================
+   TOKENS
+   ============================================================ */
+:root{
+  --ink:#121821;
+  --ink-2:#1a222d;
+  --paper:#e7e1d6;
+  --paper-2:#dcd4c6;
+  --paper-3:#f2ede4;
+  --paper-ink:#1b1c1e;
+  --paper-muted:#59554d;
+  --wax:#a33a32;
+  --wax-deep:#7f2a24;
+  --wax-soft:#f0d8d0;
+  --on-ink:#e8e6e1;
+  --on-ink-muted:#a9a69e;
+  --serif:'Newsreader', Georgia, 'Times New Roman', serif;
+  --sans:'Be Vietnam Pro', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --display:clamp(2.5rem, 6.4vw, 6rem);
+  --h2:clamp(2rem, 3.2vw, 3rem);
+  --lead:clamp(1.125rem, 1.5vw, 1.5rem);
+  --body:clamp(1.0625rem, 1.1vw, 1.1875rem);
+  --small:0.875rem;
+  --radius:16px;
+  --pad:clamp(16px, 2.4vw, 32px);
+  --ease:cubic-bezier(.2,.7,.2,1);
+}
+*,*::before,*::after{box-sizing:border-box}
+html{
+  scroll-behavior:smooth;
+  background:var(--ink);
+  scrollbar-gutter:stable;
+  -webkit-text-size-adjust:100%;
+}
+body{
+  margin:0;
+  font-family:var(--sans);
+  font-weight:400;
+  font-size:var(--body);
+  line-height:1.65;
+  color:var(--on-ink);
+  background:transparent;
+  overflow-x:hidden;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+}
+body.lightbox-open{overflow:hidden}
+.page-bg{
+  position:fixed;
+  inset:0;
+  z-index:-1;
+  overflow:hidden;
+  pointer-events:none;
+  background:var(--ink);
+}
+.page-bg-track{
+  position:absolute;
+  inset:0 0 auto;
+  height:200vh;
+  height:200svh;
+  will-change:transform;
+}
+.page-bg-track img{
+  position:absolute;
+  left:0;
+  display:block;
+  width:100%;
+  height:100vh;
+  height:100svh;
+  object-fit:cover;
+  object-position:center;
+  filter:blur(5px) saturate(1) brightness(.85);
+  opacity:.9;
+  transform:scale(1.04);
+}
+.page-bg-track img:first-child{
+  top:0;
+}
+.page-bg-track img:last-child{
+  top:85vh;
+  top:85svh;
+  height:115vh;
+  height:115svh;
+  -webkit-mask-image:linear-gradient(to bottom, transparent 0, #000 13%, #000 100%);
+  -webkit-mask-image:linear-gradient(to bottom, transparent 0, #000 15svh, #000 100%);
+  mask-image:linear-gradient(to bottom, transparent 0, #000 13%, #000 100%);
+  mask-image:linear-gradient(to bottom, transparent 0, #000 15svh, #000 100%);
+}
+.page-bg::after{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:linear-gradient(180deg, rgba(18,24,33,.08), rgba(18,24,33,.22));
+}
+h1,h2,h3{
+  font-family:var(--serif);
+  font-weight:500;
+  letter-spacing:-.035em;
+  line-height:1.02;
+  margin:0;
+  text-wrap:balance;
+}
+p{margin:0}
+a{color:inherit;text-decoration:none}
+button{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:pointer}
+img{display:block;max-width:100%;height:auto}
+figure{margin:0}
+ul,ol{margin:0;padding:0;list-style:none}
+::selection{background:var(--wax);color:var(--paper)}
+:focus-visible{outline:2px solid var(--on-ink);outline-offset:4px}
+.hero-card :focus-visible,
+.letter-field :focus-visible,
+.reply-card :focus-visible,
+.postcard :focus-visible,
+.lightbox :focus-visible{outline-color:var(--paper-ink)}
+.countdown-field :focus-visible{outline-color:var(--paper)}
+.wrap{
+  width:100%;
+  max-width:1440px;
+  margin-inline:auto;
+  padding-inline:var(--pad);
+}
+.skip{
+  position:absolute;
+  top:12px;
+  left:12px;
+  z-index:200;
+  padding:10px 14px;
+  background:var(--paper);
+  color:var(--paper-ink);
+  font-size:var(--small);
+  transform:translateY(-160%);
+}
+.skip:focus{transform:none}
+
+/* ============================================================
+   SCROLL PROGRESS
+   ============================================================ */
+.scroll-progress{
+  position:fixed;
+  inset:0 0 auto;
+  z-index:85;
+  height:3px;
+  pointer-events:none;
+}
+.scroll-progress span{
+  display:block;
+  width:100%;
+  height:100%;
+  background:var(--wax);
+  box-shadow:0 0 14px rgba(163,58,50,.55);
+  transform:scaleX(0);
+  transform-origin:0 50%;
+  will-change:transform;
+}
+
+/* ============================================================
+   HEADER
+   ============================================================ */
+.site-head{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:24px;
+  padding-block:22px 18px;
+}
+.wordmark{
+  font-family:var(--serif);
+  font-size:var(--lead);
+  font-weight:500;
+  line-height:1;
+  letter-spacing:-.025em;
+  white-space:nowrap;
+}
+.nav{
+  display:flex;
+  align-items:center;
+  gap:clamp(16px, 2.2vw, 32px);
+  font-size:var(--small);
+  color:var(--on-ink-muted);
+}
+.nav a,
+.nav button{
+  position:relative;
+  padding-block:4px;
+  color:inherit;
+  transition:color .2s ease;
+}
+.nav a::after,
+.nav button::after{
+  content:"";
+  position:absolute;
+  left:0;
+  right:100%;
+  bottom:0;
+  height:1px;
+  background:currentColor;
+  transition:right .25s var(--ease);
+}
+.nav a:hover,
+.nav button:hover,
+.nav button[aria-pressed="true"]{color:var(--on-ink)}
+.nav a:hover::after,
+.nav button:hover::after{right:0}
+.nav button:disabled{opacity:.55;cursor:default}
+.nav button:disabled::after{display:none}
+
+/* ============================================================
+   HERO
+   ============================================================ */
+.hero{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:16px;
+  align-items:stretch;
+  padding-bottom:0;
+}
+.hero-card{
+  position:relative;
+  display:flex;
+  flex-direction:column;
+  min-height:calc(100svh - 118px);
+  overflow:hidden;
+  border-radius:var(--radius);
+  background:var(--paper);
+  color:var(--paper-ink);
+}
+.stripe{
+  display:flex;
+  flex:none;
+  height:14px;
+  background:var(--paper);
+}
+.stripe span{flex:1;background:var(--wax)}
+.stripe span:nth-child(even){background:var(--paper)}
+.hero-inner{
+  display:flex;
+  flex:1;
+  flex-direction:column;
+  padding:clamp(28px, 3.8vw, 54px) clamp(24px, 3.2vw, 48px) clamp(24px, 3vw, 40px);
+}
+.hero-inner h1{
+  max-width:9ch;
+  font-size:var(--display);
+  line-height:.96;
+  letter-spacing:-.045em;
+}
+#hero-title:focus{outline:none}
+.hero-lead{
+  max-width:30ch;
+  margin-top:clamp(20px, 2.4vw, 32px);
+  font-size:var(--lead);
+  line-height:1.45;
+  color:var(--paper-muted);
+}
+.hero-actions{
+  display:flex;
+  align-items:center;
+  gap:24px;
+  flex-wrap:wrap;
+  margin-top:clamp(24px, 3vw, 36px);
+}
+.btn{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  min-height:52px;
+  padding:0 24px;
+  background:var(--wax);
+  color:var(--paper);
+  font-size:var(--body);
+  font-weight:500;
+  line-height:1;
+  text-align:center;
+  transition:background-color .2s ease, transform .2s var(--ease);
+}
+.btn:hover{background:var(--wax-deep)}
+.btn:active{transform:translateY(1px)}
+.quiet-link{
+  font-size:var(--small);
+  color:var(--paper-muted);
+  text-decoration:underline;
+  text-underline-offset:4px;
+  text-decoration-thickness:1px;
+}
+.hero-note{
+  margin-top:auto;
+  padding-top:clamp(32px, 5vw, 56px);
+  font-family:var(--serif);
+  font-size:var(--lead);
+  font-style:italic;
+  line-height:1.25;
+  color:var(--paper-ink);
+}
+.facts{
+  display:flex;
+  flex-direction:column;
+  gap:6px;
+  margin:clamp(28px, 4vw, 48px) 0 0;
+  padding-top:20px;
+}
+.fact{
+  display:flex;
+  align-items:baseline;
+  gap:10px;
+  font-family:var(--serif);
+  font-size:var(--h2);
+  line-height:1;
+  letter-spacing:-.03em;
+  font-variant-numeric:tabular-nums;
+  white-space:nowrap;
+}
+.fact-label{
+  font-family:var(--sans);
+  font-size:var(--small);
+  font-weight:400;
+  letter-spacing:0;
+  color:var(--paper-muted);
+}
+.fact-date{
+  font-size:var(--small);
+  color:var(--paper-muted);
+  font-variant-numeric:tabular-nums;
+}
+.hero-photo{
+  position:relative;
+  min-height:calc(100svh - 118px);
+  overflow:hidden;
+  border-radius:var(--radius);
+  background:var(--ink-2);
+}
+.hero-photo img{
+  position:absolute;
+  inset:0;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  opacity:0;
+  transition:opacity 1.6s ease;
+}
+.hero-photo img.active{opacity:1}
+.hero-photo img:nth-child(1){object-position:61% 50%}
+.hero-photo img:nth-child(2){object-position:50% 40%}
+.hero-photo img:nth-child(3){object-position:50% 50%}
+
+/* ============================================================
+   SECTIONS
+   ============================================================ */
+.section{padding-top:clamp(96px, 12vw, 160px)}
+.section-head{
+  display:grid;
+  grid-template-columns:minmax(0, 1.15fr) minmax(0, .85fr);
+  gap:clamp(28px, 6vw, 80px);
+  align-items:end;
+  margin-bottom:clamp(40px, 5vw, 72px);
+}
+.section-head h2,
+.section-head .lead{
+  text-shadow:0 2px 18px rgba(18,24,33,.5);
+}
+.story-field .section-head h2,
+.story-field .section-head .lead{text-shadow:none}
+.section-head h2{max-width:12ch}
+.section-head h2::after{
+  content:"";
+  display:block;
+  width:42px;
+  height:2px;
+  margin-top:18px;
+  background:var(--wax);
+  transform:scaleX(0);
+  transform-origin:left;
+  transition:transform .85s var(--ease) .12s;
+}
+.section-head.is-in h2::after{transform:scaleX(1)}
+.section-head .lead{
+  max-width:34ch;
+  padding-bottom:.25em;
+  font-size:var(--lead);
+  line-height:1.4;
+  color:var(--on-ink-muted);
+}
+
+/* memories — a journal page */
+.story-field{
+  margin-top:clamp(72px, 8vw, 112px);
+  padding-block:clamp(72px, 9vw, 112px);
+  background:var(--paper);
+  color:var(--paper-ink);
+}
+.story-field .section-head .lead{color:var(--paper-muted)}
+.story-field .memory-date{color:var(--paper-muted)}
+.story-field .memory-text{color:var(--paper-ink)}
+.memories{display:block}
+.memory{
+  display:grid;
+  grid-template-columns:minmax(90px, .48fr) minmax(0, 1.52fr);
+  grid-template-rows:auto auto;
+  column-gap:clamp(24px, 5vw, 80px);
+  row-gap:8px;
+  padding-block:clamp(22px, 3vw, 34px);
+}
+.memory-date{
+  grid-column:1;
+  grid-row:1;
+  padding-top:.55em;
+  font-size:var(--small);
+  color:var(--on-ink-muted);
+  font-variant-numeric:tabular-nums;
+  white-space:nowrap;
+}
+.memory h3{
+  grid-column:2;
+  grid-row:1;
+  font-size:var(--lead);
+  line-height:1.2;
+  letter-spacing:-.02em;
+}
+.memory-text{
+  grid-column:2;
+  grid-row:2;
+  max-width:54ch;
+  font-size:var(--body);
+  line-height:1.65;
+  color:var(--on-ink-muted);
+}
+
+/* album */
+.album{
+  display:grid;
+  grid-template-columns:repeat(4, minmax(0, 1fr));
+  gap:12px;
+}
+.shot{
+  display:flex;
+  flex-direction:column;
+  min-width:0;
+  text-align:left;
+  color:inherit;
+}
+.shot-img{
+  position:relative;
+  display:block;
+  aspect-ratio:4 / 5;
+  overflow:hidden;
+  background:var(--paper-2);
+}
+.shot-img img{
+  position:absolute;
+  inset:0;
+  z-index:1;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  transition:transform .7s var(--ease);
+}
+.shot:hover .shot-img img,
+.shot:focus-visible .shot-img img{transform:scale(1.035)}
+.shot-empty{
+  position:absolute;
+  inset:0;
+  z-index:0;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  gap:6px;
+  padding:16px;
+  color:var(--paper-muted);
+  font-size:var(--small);
+  text-align:center;
+}
+.shot-empty strong{
+  font-family:var(--serif);
+  font-size:var(--lead);
+  font-weight:400;
+  color:var(--paper-ink);
+}
+
+/* videos */
+.video-grid{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:clamp(18px, 3vw, 32px);
+}
+.video-card{
+  display:flex;
+  flex-direction:column;
+  gap:12px;
+  min-width:0;
+}
+.video-frame{
+  position:relative;
+  aspect-ratio:16 / 9;
+  overflow:hidden;
+  border:1px solid rgba(232,230,225,.14);
+  border-radius:var(--radius);
+  background:#111318;
+}
+.video-frame video{
+  position:absolute;
+  inset:0;
+  z-index:1;
+  width:100%;
+  height:100%;
+  object-fit:contain;
+  background:#111318;
+  opacity:0;
+  visibility:hidden;
+  transition:opacity .35s ease;
+}
+.video-card.is-ready .video-frame video{
+  opacity:1;
+  visibility:visible;
+}
+.video-empty{
+  position:absolute;
+  inset:0;
+  z-index:0;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  gap:7px;
+  padding:24px;
+  text-align:center;
+  color:var(--on-ink-muted);
+}
+.video-play{
+  display:grid;
+  place-items:center;
+  width:46px;
+  height:46px;
+  margin-bottom:3px;
+  border:1px solid rgba(232,230,225,.32);
+  border-radius:50%;
+  color:var(--on-ink);
+}
+.video-play svg{
+  width:17px;
+  height:17px;
+  margin-left:2px;
+  fill:currentColor;
+}
+.video-empty strong{
+  font-family:var(--serif);
+  font-size:var(--lead);
+  font-weight:400;
+  line-height:1.2;
+  color:var(--on-ink);
+}
+.video-empty span{
+  font-size:var(--small);
+  line-height:1.5;
+}
+.video-card.is-ready .video-empty{display:none}
+.video-meta{
+  display:flex;
+  align-items:baseline;
+  justify-content:space-between;
+  gap:18px;
+  padding-top:2px;
+}
+.video-meta strong{
+  font-family:var(--serif);
+  font-size:var(--body);
+  font-weight:500;
+  line-height:1.35;
+  color:var(--on-ink);
+}
+.video-meta span{
+  flex:none;
+  font-size:var(--small);
+  color:var(--on-ink-muted);
+  font-variant-numeric:tabular-nums;
+  white-space:nowrap;
+}
+
+/* letter */
+.letter-field{
+  position:relative;
+  margin-top:clamp(96px, 12vw, 160px);
+  padding-block:clamp(88px, 11vw, 144px);
+  color:var(--paper-ink);
+}
+.letter-grid{
+  position:relative;
+  z-index:2;
+  display:grid;
+  grid-template-columns:minmax(0, .68fr) minmax(0, 1.32fr);
+  gap:clamp(40px, 7vw, 104px);
+  align-items:start;
+  max-width:1120px;
+}
+.letter-aside{
+  position:sticky;
+  top:clamp(24px, 5vw, 48px);
+}
+.letter-aside h2{max-width:6ch}
+.letter-aside h2::after{
+  content:"";
+  display:block;
+  width:36px;
+  height:2px;
+  margin-top:16px;
+  background:var(--wax);
+  transform:scaleX(0);
+  transform-origin:left;
+  transition:transform .85s var(--ease) .12s;
+}
+.letter-aside.is-in h2::after{transform:scaleX(1)}
+.letter-aside .small{
+  margin-top:16px;
+  font-size:var(--small);
+  line-height:1.65;
+  color:var(--paper-muted);
+}
+.letter-index{
+  display:grid;
+  gap:2px;
+  margin-top:clamp(30px, 4vw, 48px);
+  padding-left:18px;
+  border-left:1px solid rgba(29,32,38,.18);
+}
+.letter-index:empty{display:none}
+.letter-link{
+  position:relative;
+  display:grid;
+  grid-template-columns:2.1em minmax(0, 1fr);
+  gap:10px;
+  align-items:baseline;
+  padding:8px 0;
+  font-size:var(--small);
+  line-height:1.45;
+  color:var(--paper-muted);
+  transition:color .2s ease, transform .35s var(--ease);
+}
+.letter-link::before{
+  content:"";
+  position:absolute;
+  top:.9em;
+  left:-21px;
+  width:5px;
+  height:5px;
+  border-radius:50%;
+  background:var(--wax);
+  opacity:0;
+  transform:scale(.4);
+  transition:opacity .25s ease, transform .35s var(--ease);
+}
+.letter-link span{
+  font-family:var(--serif);
+  font-size:.78rem;
+  line-height:1;
+  color:var(--paper-muted);
+  font-variant-numeric:tabular-nums;
+  transition:color .2s ease;
+}
+.letter-link:hover,
+.letter-link.is-active{color:var(--paper-ink)}
+.letter-link:hover span,
+.letter-link.is-active span{color:var(--wax)}
+.letter-link:focus-visible{
+  outline:2px solid var(--wax);
+  outline-offset:4px;
+  border-radius:2px;
+}
+.letter-link.is-active{transform:translateX(4px)}
+.letter-link.is-active::before{opacity:1;transform:scale(1)}
+.letter-copy{max-width:620px}
+.letter-chapter{scroll-margin-top:56px}
+.salutation{
+  margin-bottom:1.5em;
+  font-family:var(--serif);
+  font-size:var(--lead);
+  line-height:1.2;
+}
+.letter-copy p{
+  margin-bottom:1.25em;
+  font-size:var(--body);
+  line-height:1.78;
+}
+.signature{
+  margin-top:1.6em;
+  font-family:var(--serif);
+  font-size:var(--lead);
+  font-style:italic;
+  line-height:1;
+}
+.letter-chapter + .letter-chapter{margin-top:2.6em}
+.letter-chapter h3{
+  margin-bottom:.85em;
+  font-family:var(--serif);
+  font-size:clamp(1.08rem, 1.35vw, 1.3rem);
+  font-weight:500;
+  line-height:1.3;
+  letter-spacing:-.01em;
+}
+
+/* countdown */
+.countdown-field{
+  padding-block:clamp(80px, 10vw, 128px);
+  background:var(--wax);
+  color:var(--paper);
+}
+.countdown-top{
+  display:flex;
+  align-items:flex-end;
+  justify-content:space-between;
+  gap:24px;
+  flex-wrap:wrap;
+}
+.countdown-top h2{max-width:10ch}
+.count-line{
+  max-width:38ch;
+  margin-top:clamp(24px, 4vw, 40px);
+  font-size:var(--lead);
+  line-height:1.4;
+  color:var(--wax-soft);
+}
+.clock{
+  display:grid;
+  grid-template-columns:repeat(4, minmax(0, 1fr));
+  gap:clamp(16px, 3vw, 48px);
+  align-items:end;
+  margin-top:clamp(32px, 5vw, 60px);
+}
+.clock-item{display:flex;flex-direction:column;gap:8px}
+.clock-num{
+  font-family:var(--serif);
+  font-size:var(--display);
+  font-weight:400;
+  line-height:.9;
+  letter-spacing:-.04em;
+  font-variant-numeric:tabular-nums;
+}
+.clock-label{
+  font-size:var(--small);
+  color:var(--wax-soft);
+}
+
+/* promises */
+.promises .split{
+  display:grid;
+  grid-template-columns:minmax(0, 1.3fr) minmax(0, .7fr);
+  gap:clamp(40px, 8vw, 112px);
+  align-items:end;
+}
+.promises h2{max-width:14ch}
+.promises .lead{
+  max-width:34ch;
+  margin-top:20px;
+  font-size:var(--lead);
+  line-height:1.4;
+  color:var(--on-ink-muted);
+}
+.promise-list{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:22px 40px;
+  max-width:760px;
+  margin-top:40px;
+}
+.promise-list li{
+  font-size:var(--body);
+  line-height:1.55;
+  color:var(--on-ink);
+}
+.pull{
+  max-width:24ch;
+  padding-bottom:.25em;
+  font-family:var(--serif);
+  font-size:var(--lead);
+  font-weight:400;
+  line-height:1.35;
+  letter-spacing:-.02em;
+  color:var(--on-ink-muted);
+  text-wrap:balance;
+}
+
+/* final */
+.final{
+  padding-top:clamp(96px, 12vw, 160px);
+  overflow:hidden;
+  background:var(--wax);
+  color:var(--paper);
+}
+.final-grid{
+  display:grid;
+  grid-template-columns:minmax(0, .7fr) minmax(0, 1.3fr);
+  gap:clamp(40px, 8vw, 112px);
+  align-items:end;
+}
+.final-copy{
+  max-width:26ch;
+  margin-bottom:8px;
+  font-size:var(--lead);
+  line-height:1.45;
+  color:var(--wax-soft);
+}
+.reply-card{
+  position:relative;
+  width:min(100%, 460px);
+  margin-left:auto;
+  margin-bottom:-24px;
+  padding:clamp(28px, 3.6vw, 44px);
+  background:var(--paper);
+  color:var(--paper-ink);
+  transform:rotate(1.5deg);
+  transform-origin:50% 100%;
+}
+.reply-card h2{max-width:9ch}
+.reply-card .card-copy{
+  max-width:34ch;
+  margin:16px 0 28px;
+  font-size:var(--body);
+  line-height:1.6;
+  color:var(--paper-ink);
+}
+.btn-block{width:100%}
+.send-status{
+  min-height:1.65em;
+  margin-top:12px;
+  font-size:var(--small);
+  color:var(--paper-muted);
+}
+.sent-stamp{
+  position:absolute;
+  top:-14px;
+  right:24px;
+  z-index:2;
+  padding:8px 12px;
+  background:var(--wax);
+  color:var(--paper);
+  font-size:var(--small);
+  font-weight:500;
+  white-space:nowrap;
+  opacity:0;
+  transform:rotate(-7deg) scale(1.25);
+  pointer-events:none;
+  transition:opacity .25s ease, transform .45s var(--ease);
+}
+.reply-card.sent .sent-stamp{opacity:1;transform:rotate(-7deg) scale(1)}
+
+/* footer */
+.footer{padding-block:clamp(64px, 8vw, 100px) clamp(32px, 5vw, 56px)}
+.postcard-wrap{
+  max-width:1120px;
+  margin-inline:auto;
+}
+.scallops{
+  display:flex;
+  height:26px;
+  overflow:hidden;
+}
+.scallops span{
+  flex:1;
+  height:52px;
+  background:var(--paper);
+  border-radius:50% 50% 0 0 / 100% 100% 0 0;
+}
+.postcard{
+  display:grid;
+  grid-template-columns:minmax(0, 1.2fr) minmax(0, .8fr);
+  gap:40px;
+  padding:clamp(32px, 5vw, 56px) clamp(24px, 4vw, 48px) 24px;
+  background:var(--paper);
+  color:var(--paper-ink);
+}
+.postcard-sign{
+  margin-bottom:16px;
+  font-family:var(--serif);
+  font-size:var(--h2);
+  line-height:1.05;
+  letter-spacing:-.03em;
+}
+.postcard-msg{
+  max-width:34ch;
+  font-size:var(--body);
+  line-height:1.65;
+  color:var(--paper-ink);
+}
+.postcard-right{
+  display:flex;
+  flex-direction:column;
+  align-items:flex-end;
+  gap:20px;
+  text-align:right;
+}
+.footer-stamp{
+  width:96px;
+  padding:7px;
+  background:var(--paper-3);
+  transform:rotate(3deg);
+}
+.footer-stamp img{
+  width:100%;
+  aspect-ratio:3 / 4;
+  object-fit:cover;
+}
+.address{
+  font-size:var(--body);
+  line-height:1.65;
+  color:var(--paper-ink);
+}
+/* ============================================================
+   LIGHTBOX
+   ============================================================ */
+.lightbox{
+  position:fixed;
+  inset:0;
+  z-index:100;
+  display:grid;
+  place-items:center;
+  padding:24px;
+  background:rgba(18, 24, 33, .97);
+  opacity:0;
+  visibility:hidden;
+  transition:opacity .25s ease, visibility .25s ease;
+}
+.lightbox.open{opacity:1;visibility:visible}
+.lb-stage{
+  display:flex;
+  flex-direction:column;
+  width:min(100%, 900px);
+  max-height:calc(100svh - 48px);
+}
+.lb-img-wrap{
+  display:grid;
+  flex:1;
+  place-items:center;
+  min-height:220px;
+  overflow:hidden;
+  background:var(--paper-2);
+}
+.lb-img-wrap img{
+  max-width:100%;
+  max-height:calc(100svh - 164px);
+  object-fit:contain;
+}
+.lb-img-wrap img[hidden],
+.lb-fallback[hidden]{display:none}
+.lb-fallback{
+  padding:32px;
+  color:var(--paper-ink);
+  font-size:var(--body);
+  line-height:1.6;
+  text-align:center;
+}
+.lb-cap{
+  display:flex;
+  align-items:flex-start;
+  justify-content:space-between;
+  gap:16px;
+  padding:14px 18px;
+  background:var(--paper);
+  color:var(--paper-ink);
+  font-size:var(--small);
+}
+.lb-cap[hidden]{display:none}
+.lb-cap-date{color:var(--paper-muted);white-space:nowrap;font-variant-numeric:tabular-nums}
+.lb-close,
+.lb-nav{
+  position:fixed;
+  z-index:2;
+  color:var(--paper);
+  font-size:var(--small);
+  text-decoration:underline;
+  text-underline-offset:4px;
+}
+.lb-close{top:20px;right:24px}
+.lb-nav{bottom:24px}
+.lb-prev{left:24px}
+.lb-next{right:24px}
+.lb-nav:disabled{opacity:.35;cursor:default}
+
+/* ============================================================
+   SEALED LETTER COVER
+   ============================================================ */
+html.letter-wait body{overflow:hidden}
+.letter-cover{
+  position:fixed;
+  inset:0;
+  z-index:90;
+  display:none;
+  place-items:center;
+  padding:clamp(12px, 3vw, 32px);
+  background:var(--ink);
+  opacity:1;
+  transition:opacity .55s ease;
+}
+html.has-js:not(.letter-skip) .letter-cover:not(.is-done){display:grid}
+.letter-cover.is-opening{opacity:0;pointer-events:none}
+.letter-cover.is-done{display:none}
+.cover-letter{
+  position:relative;
+  display:flex;
+  flex-direction:column;
+  width:min(780px, 100%);
+  min-height:min(680px, calc(100svh - 24px));
+  max-height:calc(100svh - 24px);
+  overflow:auto;
+  border-radius:var(--radius);
+  background:var(--paper);
+  color:var(--paper-ink);
+  text-align:left;
+  cursor:pointer;
+  transition:transform .65s var(--ease), opacity .45s ease;
+}
+.cover-letter:hover{transform:translateY(-4px) rotate(-.35deg)}
+.cover-letter:focus-visible{
+  outline:2px solid var(--on-ink);
+  outline-offset:4px;
+}
+.cover-stripe{height:12px}
+.cover-inner{
+  position:relative;
+  display:flex;
+  flex:1;
+  flex-direction:column;
+  padding:clamp(28px, 4.2vw, 56px);
+}
+.cover-top{
+  display:flex;
+  align-items:flex-start;
+  justify-content:space-between;
+  gap:24px;
+}
+.cover-date{
+  padding-top:4px;
+  font-size:var(--small);
+  line-height:1;
+  color:var(--paper-muted);
+  font-variant-numeric:tabular-nums;
+}
+.cover-stamp{
+  flex:none;
+  width:64px;
+  padding:5px;
+  background:var(--paper-3);
+  transform:rotate(3deg);
+}
+.cover-stamp img{
+  width:100%;
+  aspect-ratio:3 / 4;
+  object-fit:cover;
+}
+.cover-title{
+  display:block;
+  max-width:9ch;
+  margin-top:clamp(34px, 6vw, 68px);
+  font-family:var(--serif);
+  font-size:clamp(3.15rem, 7.2vw, 5rem);
+  font-weight:500;
+  line-height:.94;
+  letter-spacing:-.045em;
+  color:var(--paper-ink);
+  text-wrap:balance;
+}
+.cover-sub{
+  display:block;
+  max-width:32ch;
+  margin-top:clamp(24px, 3.4vw, 36px);
+}
+.cover-to{
+  display:block;
+  font-family:var(--serif);
+  font-size:var(--lead);
+  font-style:italic;
+  line-height:1.3;
+  color:var(--paper-ink);
+}
+.cover-note{
+  display:block;
+  margin-top:8px;
+  font-size:var(--small);
+  line-height:1.65;
+  color:var(--paper-muted);
+}
+.cover-foot{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:24px;
+  margin-top:auto;
+  padding-top:clamp(40px, 7vw, 80px);
+}
+.cover-open{
+  font-size:var(--small);
+  font-weight:500;
+  line-height:1.3;
+  color:var(--wax);
+  text-decoration:underline;
+  text-underline-offset:5px;
+  text-decoration-thickness:1px;
+}
+.cover-seal{
+  display:grid;
+  flex:none;
+  place-items:center;
+  width:76px;
+  aspect-ratio:1;
+  border-radius:48% 52% 51% 49% / 52% 48% 50% 50%;
+  background:var(--wax);
+  color:var(--paper);
+  transform:rotate(-8deg);
+  transition:transform .45s var(--ease), opacity .35s ease;
+}
+.cover-seal svg{width:29px;height:29px;fill:currentColor}
+.cover-letter:hover .cover-seal{transform:rotate(-3deg) scale(1.04)}
+.letter-cover.is-opening .cover-letter{
+  transform:translateY(-14px) rotate(-1deg) scale(.985);
+  opacity:.3;
+}
+.letter-cover.is-opening .cover-seal{
+  transform:rotate(-16deg) scale(1.35);
+  opacity:0;
+}
+
+/* ============================================================
+   FLOATING HEARTS
+   ============================================================ */
+.hearts-layer{
+  position:fixed;
+  inset:0;
+  z-index:95;
+  overflow:hidden;
+  pointer-events:none;
+}
+.heart{
+  position:absolute;
+  left:var(--x);
+  bottom:var(--y, -12px);
+  width:var(--size);
+  height:var(--size);
+  color:var(--c);
+  opacity:0;
+  will-change:transform, opacity;
+  animation:heart-rise var(--dur) var(--delay) var(--ease) forwards;
+}
+.heart svg{
+  display:block;
+  width:100%;
+  height:100%;
+  fill:currentColor;
+}
+@keyframes heart-rise{
+  0%{
+    opacity:0;
+    transform:translate3d(0, 0, 0) rotate(var(--r0)) scale(.65);
+  }
+  12%{opacity:var(--o)}
+  82%{opacity:var(--o)}
+  100%{
+    opacity:0;
+    transform:translate3d(var(--dx), calc(-1 * var(--rise)), 0) rotate(var(--r1)) scale(1);
+  }
+}
+
+/* ============================================================
+   MOTION
+   ============================================================ */
+html.js [data-reveal]{
+  opacity:0;
+  transform:translateY(28px);
+  transition:opacity .8s ease, transform .8s var(--ease);
+}
+html.js [data-reveal].is-in{
+  opacity:1;
+  transform:none;
+}
+@media (prefers-reduced-motion: reduce){
+  html{scroll-behavior:auto}
+  html.js [data-reveal]{opacity:1;transform:none;transition:none}
+  .hero-photo img{transition:none}
+  .sent-stamp{transition:none}
+  .shot-img img{transition:none}
+  .video-frame video{transition:none}
+  .letter-cover,
+  .cover-letter,
+  .cover-seal{transition:none}
+  .section-head h2::after,
+  .letter-aside h2::after{transition:none;transform:none}
+  .letter-link,
+  .letter-link span,
+  .letter-link::before{transition:none}
+  .hearts-layer{display:none!important}
+  *{scroll-behavior:auto!important}
+}
+
+/* Ảnh nền chung xuyên nhẹ qua các mặt giấy/đỏ. */
+.hero-card,.story-field,.letter-field,.postcard,.reply-card{
+  background:rgba(231,225,214,.64);
+}
+.cover-letter{
+  background:rgba(231,225,214,.84);
+}
+.countdown-field,.final{
+  background:rgba(163,58,50,.68);
+}
+.count-line,.clock-label{
+  color:rgba(246,233,228,.94);
+}
+
+/* ============================================================
+   RESPONSIVE
+   ============================================================ */
+@media (max-width: 1060px){
+  .album{grid-template-columns:repeat(3, minmax(0, 1fr))}
+}
+@media (max-width: 900px){
+  .hero{grid-template-columns:1fr;gap:0}
+  .hero-photo{
+    order:1;
+    height:42svh;
+    min-height:320px;
+    border-radius:var(--radius);
+  }
+  .hero-card{
+    order:2;
+    z-index:2;
+    width:calc(100% - 24px);
+    min-height:0;
+    margin:-24px auto 0;
+  }
+  .hero-inner{padding:28px 22px 26px}
+  .hero-inner h1{max-width:10ch}
+  .hero-note{padding-top:28px}
+  .facts{margin-top:32px}
+  .section-head{grid-template-columns:1fr;gap:18px}
+  .section-head .lead{max-width:40ch;padding-bottom:0}
+  .letter-grid{grid-template-columns:1fr;gap:40px}
+  .letter-aside{
+    position:static;
+    display:flex;
+    align-items:flex-end;
+    justify-content:space-between;
+    gap:24px;
+    flex-wrap:wrap;
+  }
+  .letter-aside h2{flex:1}
+  .letter-aside .small{margin-top:0}
+  .letter-index{display:none}
+  .promises .split,
+  .final-grid{grid-template-columns:1fr;gap:48px}
+  .pull{max-width:30ch}
+  .reply-card{margin-left:0;margin-bottom:-16px}
+  .postcard{grid-template-columns:1fr;gap:32px}
+  .postcard-right{
+    display:grid;
+    grid-template-columns:96px minmax(0, 1fr);
+    align-items:start;
+    gap:16px;
+    text-align:left;
+  }
+  .footer-stamp{width:96px;margin:0;align-self:start}
+}
+@media (max-width: 760px){
+  .site-head{padding-block:18px 14px}
+  .nav a{display:none}
+  .nav{gap:0}
+  .album{grid-template-columns:repeat(2, minmax(0, 1fr));gap:10px}
+  .clock{grid-template-columns:1fr 1fr;gap:28px 20px}
+  .clock-num{font-size:clamp(2.75rem, 12vw, 4rem)}
+}
+@media (max-width: 640px){
+  .letter-cover{padding:12px}
+  .cover-inner{padding:26px 22px 24px}
+  .cover-title{font-size:clamp(3rem, 13.5vw, 4.25rem)}
+  .cover-foot{padding-top:40px}
+  .cover-seal{width:64px}
+  .cover-seal svg{width:24px;height:24px}
+  .cover-stamp{width:56px}
+  .memory{grid-template-columns:1fr;row-gap:6px}
+  .memory h3{grid-column:1;grid-row:1}
+  .memory-date{grid-column:1;grid-row:2;padding-top:0}
+  .memory-text{grid-column:1;grid-row:3;margin-top:6px}
+  .promise-list{grid-template-columns:1fr;gap:18px}
+  .video-grid{grid-template-columns:1fr}
+  .reply-card{transform:rotate(1deg)}
+  .lb-close{top:14px;right:16px}
+  .lb-prev{left:16px}
+  .lb-next{right:16px}
+  .lb-nav{bottom:16px}
+  .lightbox{padding:16px}
+  .lb-img-wrap img{max-height:calc(100svh - 150px)}
+  .postcard-right{align-items:flex-start}
+  .footer-stamp{align-self:flex-start;margin-top:0}
+}
+@media (max-width: 420px){
+  .hero-photo{height:38svh;min-height:270px}
+  .hero-inner h1{font-size:clamp(2.4rem, 11.5vw, 3rem)}
+  .facts{gap:4px}
+  .fact{font-size:clamp(1.65rem, 8vw, 2rem)}
+  .wordmark{font-size:1.05rem}
+}
+</style>
+</head>
+<body>
+<div class="scroll-progress" aria-hidden="true"><span id="scrollProgress"></span></div>
+<div class="page-bg" aria-hidden="true">
+  <div class="page-bg-track" id="pageBgTrack">
+    <img src="images/ac6520548572052c5c63.jpg" alt="" decoding="async" onerror="this.remove()">
+    <img src="images/7a6f79c7eae16abf33f0.jpg" alt="" decoding="async" onerror="this.remove()">
+  </div>
+</div>
+
+<section class="letter-cover" id="letterCover" role="dialog" aria-modal="true" aria-labelledby="coverTitle">
+  <button class="cover-letter" id="openLetter" type="button" aria-label="Mở lá thư">
+    <span class="stripe cover-stripe" aria-hidden="true"></span>
+    <span class="cover-inner">
+      <span class="cover-top">
+        <span class="cover-date"><span data-today>21.10.2026</span></span>
+        <span class="cover-stamp" aria-hidden="true">
+          <img src="assets/postcard-stamp.jpg" alt="" width="480" height="640" decoding="async">
+        </span>
+      </span>
+      <span class="cover-title" id="coverTitle">Mười tháng<br>bên em</span>
+      <span class="cover-sub">
+        <span class="cover-to">Gửi <span data-name="her">Quỳnh Anh</span>,</span>
+        <span class="cover-note">Một lá thư nhỏ, hãy mở nó ra đi nàoooooo.</span>
+      </span>
+      <span class="cover-foot">
+        <span class="cover-seal" aria-hidden="true">
+          <svg viewBox="0 0 24 24" focusable="false" aria-hidden="true">
+            <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+          </svg>
+        </span>
+      </span>
+    </span>
+  </button>
+</section>
+
+<div id="page">
+<a class="skip" href="#main">Đến nội dung</a>
+
+<header class="site-head wrap">
+  <a class="wordmark" href="#top" aria-label="Về đầu trang">
+    <span data-name="her">Quỳnh Anh</span> &amp; <span data-name="you">Anh</span>
+  </a>
+  <nav class="nav" aria-label="Điều hướng">
+    <a href="#story">Chuyện</a>
+    <a href="#photos">Ảnh</a>
+    <a href="#videos">Video</a>
+    <a href="#letter">Thư</a>
+    <a href="#promises">Lời hứa</a>
+    <button id="musicBtn" type="button" aria-pressed="false">Nhạc</button>
+  </nav>
+</header>
+
+<main id="main">
+  <section class="hero wrap" id="top" aria-labelledby="hero-title">
+    <div class="hero-card">
+      <div class="stripe" id="stripe" aria-hidden="true"></div>
+      <div class="hero-inner">
+        <h1 id="hero-title" data-reveal tabindex="-1">Mười tháng<br>bên em</h1>
+        <p class="hero-lead" data-reveal style="transition-delay:70ms">
+          Một món quà nhỏ cho chặng đường mình đã đi qua - Anh viết lại những ngày có em, để sau này mình vẫn còn điều để nhớ gửi xã iu</span>, người anh iuuu.
+        </p>
+        <div class="hero-actions" data-reveal style="transition-delay:130ms">
+          <a class="btn" href="#letter">Đọc lá thư</a>
+          <a class="quiet-link" href="#photos">Xem ảnh của mình</a>
+        </div>
+        <p class="hero-note" data-reveal style="transition-delay:190ms">Cảm ơn em vì đã ở lại.</p>
+        <div class="facts" data-reveal style="transition-delay:240ms">
+          <p class="fact"><span id="daysCount">—</span><span class="fact-label">ngày bên nhau</span></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-photo" aria-hidden="true">
+      <img class="active" src="assets/sealing-wax-on-letters.jpg" alt="" width="1920" height="956" fetchpriority="high" decoding="async">
+      <img src="assets/love-letter-1906.jpg" alt="" width="1400" height="1058" loading="lazy" decoding="async">
+      <img src="assets/fountain-pen.webp" alt="" width="1024" height="683" loading="lazy" decoding="async">
+    </div>
+  </section>
+
+  <section class="story-field" id="story" aria-labelledby="story-title" data-hearts data-heart-tone="light">
+    <div class="wrap">
+      <div class="section-head" data-reveal>
+        <h2 id="story-title">Chuyện của mình</h2>
+      </div>
+      <div class="memories" id="memories"></div>
+    </div>
+  </section>
+
+  <section class="section wrap" id="photos" aria-labelledby="photos-title" data-hearts data-heart-tone="dark">
+    <div class="section-head" data-reveal>
+      <h2 id="photos-title">Những tấm ảnh</h2>
+    </div>
+    <div class="album" id="album"></div>
+  </section>
+
+  <section class="section wrap videos" id="videos" aria-labelledby="videos-title">
+    <div class="section-head" data-reveal>
+    </div>
+    <div class="video-grid" id="videoGrid"></div>
+  </section>
+
+  <section class="letter-field" id="letter" aria-labelledby="letter-title" data-hearts data-heart-tone="light">
+    <div class="wrap letter-grid">
+      <div class="letter-aside" data-reveal>
+        <h2 id="letter-title">Lá thư</h2>
+        <p class="small">Viết cho em,<br><span data-today>21.10.2026</span></p>
+        <nav class="letter-index" id="letterIndex" aria-label="Các phần của lá thư"></nav>
+      </div>
+      <div class="letter-copy">
+        <p class="salutation"><span data-name="her">Quỳnh Anh</span>,</p>
+        <div id="letterBody"></div>
+        <p class="signature" data-name="you">Anh</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="countdown-field" id="countdown" aria-labelledby="count-title" data-hearts data-heart-tone="wax">
+    <div class="wrap">
+      <div class="countdown-top" data-reveal>
+        <h2 id="count-title">Tới 1 năm</h2>
+      </div>
+      <div class="clock" data-reveal style="transition-delay:80ms">
+        <div class="clock-item">
+          <span class="clock-num" id="cdDays">60</span>
+          <span class="clock-label">ngày</span>
+        </div>
+        <div class="clock-item">
+          <span class="clock-num" id="cdHours">9</span>
+          <span class="clock-label">giờ</span>
+        </div>
+        <div class="clock-item">
+          <span class="clock-num" id="cdMinutes">7</span>
+          <span class="clock-label">phút</span>
+        </div>
+        <div class="clock-item">
+          <span class="clock-num" id="cdSeconds">0</span>
+          <span class="clock-label">giây</span>
+        </div>
+      </div>
+      <p class="count-line" id="countLine" data-reveal style="transition-delay:140ms">Còn 60 ngày nữa là một năm của mình — 21 tháng 12, 2026.</p>
+    </div>
+  </section>
+
+  <section class="section wrap promises" id="promises" aria-labelledby="promises-title" data-hearts data-heart-tone="dark">
+    <div class="split">
+      <div data-reveal>
+        <h2 id="promises-title">Những điều mình sẽ làm</h2>
+        <p class="lead">Không cần vội. Mình còn nhiều thời gian.</p>
+        <ul class="promise-list" id="promiseList"></ul>
+      </div>
+      <blockquote class="pull" data-reveal style="transition-delay:100ms">
+        “Anh không cần một ngày hoàn hảo một thời gian tuyệt vời mà chỉ có riêng anh. Anh chỉ cần có em đồng hành. Mãi yêuuuu.”
+      </blockquote>
+    </div>
+  </section>
+
+  <section class="final" id="final" aria-labelledby="final-title" data-hearts data-heart-tone="wax">
+    <div class="wrap final-grid">
+      <p class="final-copy" data-reveal>
+        Anh không biết tương lai sẽ mang đến cho chúng ta những điều gì. Nhưng ở hiện tại, anh trân trọng từng kỷ niệm đã tạo nên câu chuyện của hai đứa.
+      </p>
+      <div class="reply-card" id="replyCard" data-reveal style="transition-delay:90ms">
+        <h2 id="final-title">Một năm nữa nhé</h2>
+        <p class="card-copy">Cảm ơn em vì đã cùng anh đi qua những ngày tháng không chỉ có màu hồng. Hẹn em ở một năm, và những chặng đường sau nữa.</p>
+        <button class="btn btn-block" id="sendBtn" type="button">Gửi yêu thương</button>
+        <p class="send-status" id="sendStatus" role="status" aria-live="polite"></p>
+        <span class="sent-stamp" id="sentStamp" aria-hidden="true">Đã gửi · 21.10.2026</span>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <div class="postcard-wrap">
+      <div class="scallops" aria-hidden="true"></div>
+      <div class="postcard">
+        <div>
+          <p class="postcard-sign">Anh thương em.</p>
+          <p class="postcard-msg">Cảm ơn em đã ở đây, cùng anh, qua những ngày tháng này.</p>
+        </div>
+        <div class="postcard-right">
+          <figure class="footer-stamp">
+            <img src="assets/postcard-stamp.jpg" alt="Mặt sau một phong bì cũ với những con dấu sáp" width="480" height="640" loading="lazy" decoding="async">
+          </figure>
+          <p class="address">
+            Gửi: <span data-name="her">Quỳnh Anh</span><br>
+            Từ: <span data-name="you">Anh</span><br>
+            <span data-today>21.10.2026</span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+</div>
+
+<div class="hearts-layer" id="hearts" aria-hidden="true"></div>
+
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Xem ảnh" aria-hidden="true">
+  <button class="lb-close" id="lbClose" type="button">Đóng</button>
+  <div class="lb-stage">
+    <div class="lb-img-wrap">
+      <img id="lbImg" src="" alt="">
+      <p class="lb-fallback" id="lbFallback" hidden>Ảnh này chưa có.</p>
+    </div>
+    <div class="lb-cap">
+      <span id="lbCaption"></span>
+      <span class="lb-cap-date" id="lbDate"></span>
+    </div>
+  </div>
+  <button class="lb-nav lb-prev" id="lbPrev" type="button">Trước</button>
+  <button class="lb-nav lb-next" id="lbNext" type="button">Sau</button>
+</div>
+
+<audio id="audio" loop preload="metadata"></audio>
+
+<script>
+/* ============================================================
+   SỬA NỘI DUNG Ở ĐÂY
+   ============================================================ */
+const CONFIG = {
+  herName: "Minn",
+  yourName: "Nghé",
+  startDate: "2025-12-24",
+
+  // Ảnh nền hero. Thay bằng ảnh của hai đứa nếu muốn.
+  heroPhotos: [
+    "images/bf06d5166e30ee6eb721.jpg",
+    "images/ac6520548572052c5c63.jpg",
+    "images/ec658c641c429c1cc553.jpg",
+    "images/7a6f79c7eae16abf33f0.jpg"
+  ],
+
+  memories: [
+    {
+      date: "2025-12-07",
+      title: "Ngày đầu tiên gặp nhau",
+      text: "Anh vẫn nhớ ngày đầu tiên chúng ta gặp nhau, ngày mà anh chưa từng nghĩ rằng một cô gái như em lại có thể trở thành một người quan trọng đối với anh đến vậy. Em là một cô gái trầm tính, ít nói, có chút gì đó nhẹ nhàng và khó đoán. Only said 'Anh ít nói quá haaaaaa !?'"
+    },
+    {
+      date: "2026-01-12",
+      title: "Sinh nhật em",
+      text: "Buổi đi chơi hôm ấy, đặc biệt là trải nghiệm cùng nhau làm gấu bông, đã trở thành một kỷ niệm mà anh luôn nhớ đến. Cũng từ hôm ấy, anh nhận ra thêm một điều đáng yêu ở em: Thì ra em cũng là một cô vụng về."
+    },
+    {
+      date: "2026-03-27",
+      title: "Hai bé mèo",
+      text: "Ngày hôm ấy, cuộc sống của hai đứa có thêm hai thành viên nhỏ: hai đứa mèo. Từ khi có thêm hai đứa, anh nghĩ rằng mối quan hệ của chúng ta cũng có thêm nhiều điều để sẻ chia."
+    },
+    {
+      date: "2026-04-30",
+      title: "Khoảng thời gian khó khăn",
+      text: "Em bị bệnh và phải nằm viện. Nhưng điều khiến anh trân trọng chính là trong khoảng thời gian khó khăn ấy, cả hai vẫn cố gắng cùng nhau vượt qua."
+    }
+  ],
+
+  // Mỗi ảnh chỉ cần src; gallery hiển thị không caption.
+  gallery: [
+    { src: "images/70355135c113414d1802.jpg" },
+    { src: "images/72b5682ac20c42521b1d.jpg", caption: "doi gau bong tu lammm" },
+    { src: "images/e9baf7d867fee7a0beef.jpg", caption: "mimi and susu" },
+    { src: "images/c4f1bdd32df5adabf4e4.jpg", caption: "nam trong benh vienn luc sap duoc ra viennn" },
+    { src: "images/1347e5dc76faf6a4afeb.jpg", caption: 'askfjpaihpqhashdfhadf' },
+    { src: "images/5521a4b40e928eccd783.jpg", caption: "asdfqpowanspvhasethaefas" },
+    { src: "images/10718e561e709e2ec761.jpg", caption: "heheheheheh d* toaa !!!" },
+    { src: "images/5cb74028ea0e6a50331f.jpg", caption: "em be xinhhh" },
+    { src: "images/629b5649356ab534ec7b.jpg", caption: "coc can vd ?!" },
+    { src: "images/7106cf395f1fdf41860e.jpg", caption: 'i have an idea !!' },
+    { src: "images/7a6f79c7eae16abf33f0.jpg", caption: "eooooooooo" },
+    { src: "images/7b14a63d1d1b9d45c40a.jpg", caption: "hiiiiiiiii" },
+    { src: "images/841ad2f3b1d0318e68c1.jpg", caption: 'babyyyyyyyyyyy' },
+    { src: "images/ac6520548572052c5c63.jpg", caption: 'oi tam hinh dau tiennnnn' },
+    { src: "images/bf06d5166e30ee6eb721.jpg", caption: 'cung cuc cung di coi da bong !' },
+    { src: "images/c30a08a49b821bdc4293.jpg", caption: 'no comment' },
+    { src: "images/d7aacd71ae522e0c7743.jpg", caption: 'thow :3' },
+    { src: "images/e76719bd7a9efac0a38f.jpg", caption: "ehejehehehejehejeheh" },
+    { src: "images/ec658c641c429c1cc553.jpg", caption: "cuc dang duoi nangggg" },
+    { src: "images/Em.jpg", caption: "Thien than di biennnn" }
+  ],
+
+  // Thêm file video vào videos/ rồi giữ nguyên tên ở đây.
+  // poster có thể trỏ tới một ảnh trong images/; để trống nếu không cần.
+  // videos: [
+  //   { src: "videos/01.mp4", poster: "", caption: "Một đoạn ngắn", date: "2026" },
+  //   { src: "videos/02.mp4", poster: "", caption: "Một ngày bình thường", date: "2026" }
+  // ],
+
+  letter: [
+    {
+      heading: "07.12.2025  · Ngày đầu tiên chúng ta gặp nhau",
+      paragraphs: [
+        "Anh vẫn nhớ ngày đầu tiên chúng ta gặp nhau, ngày mà anh chưa từng nghĩ rằng một cô gái như em lại có thể trở thành một người quan trọng đối với anh đến vậy. Ấn tượng đầu tiên của anh về em nằm ngoài những gì anh tưởng tượng. Em là một cô gái trầm tính, ít nói, có chút gì đó nhẹ nhàng và khó đoán. Lúc ấy, anh chưa thể hiểu hết về em, cũng chẳng biết rằng sau này chúng ta sẽ cùng nhau trải qua nhiều chuyện đến thế.",
+        "Anh nghĩ tình cảm đôi khi thật kỳ lạ. Từ hai người xa lạ, chưa biết gì nhiều về nhau, chúng ta bắt đầu tìm hiểu, quan tâm và dần dần bước vào cuộc sống của đối phương. Có lẽ, vào ngày hôm ấy, cả anh và em đều không thể hình dung được rằng một cuộc gặp gỡ bình thường lại có thể mở đầu cho một hành trình đặc biệt như bây giờ."
+      ]
+    },
+    {
+      heading: "12.01.2026 · Sinh nhật em, một kỷ niệm đáng nhớ của anh",
+      paragraphs: [
+        "Đây là một trong những ngày mà anh cảm thấy rất vui khi được ở bên em. Buổi đi chơi hôm ấy, đặc biệt là trải nghiệm cùng nhau làm gấu bông, đã trở thành một kỷ niệm mà anh luôn nhớ đến.",
+        "Cũng từ hôm ấy, anh nhận ra thêm một điều đáng yêu ở em: hóa ra em cũng là một cô gái khá vụng về. Có những chuyện tưởng chừng đơn giản nhưng khi em tự tay làm lại chẳng dễ dàng chút nào. Nhưng chính những điều nhỏ nhặt ấy lại khiến anh cảm thấy em gần gũi và đáng yêu hơn.",
+        "Anh không biết em có nhớ hết những chi tiết của ngày hôm đó hay không, nhưng với anh, điều đáng nhớ không chỉ là chúng ta đã đi đâu hay làm gì. Mà là cảm giác được dành thời gian bên em, được nhìn thấy những biểu cảm tự nhiên của em, được cùng em tạo nên một kỷ niệm riêng của hai đứa. Anh nhận ra rằng đôi khi, hạnh phúc không cần phải đến từ những điều quá lớn lao. Chỉ cần có em bên cạnh, cùng làm một việc nhỏ thôi cũng đủ để một ngày bình thường trở nên đặc biệt."
+      ]
+    },
+    {
+      heading: "Dịp lễ 30.04.2026 · Khoảng thời gian khó khăn mà chúng ta đã cùng nhau trải qua",
+      paragraphs: [
+        "Đây có lẽ là một trong những giai đoạn khiến anh nhớ nhiều nhất, không phải vì những điều vui vẻ, mà vì những gì chúng ta đã phải đối mặt.",
+        "Em bị bệnh và phải nằm viện. Những ngày tháng ấy chẳng dễ dàng đối với cả hai. Khi sức khỏe không tốt, tinh thần cũng có lúc mệt mỏi, lo lắng và bất an. Có những chuyện xảy đến mà chúng ta chẳng thể lựa chọn, cũng chẳng thể biết trước mọi thứ sẽ diễn ra như thế nào.",
+        "Nhưng điều khiến anh trân trọng chính là trong khoảng thời gian khó khăn ấy, cả hai vẫn cố gắng cùng nhau vượt qua. Chúng ta không phải lúc nào cũng mạnh mẽ, không phải lúc nào cũng biết phải làm gì để mọi chuyện tốt hơn. Đã có những lúc mệt mỏi, buồn bã, thậm chí bất lực trước hoàn cảnh. Nhưng sau tất cả, chúng ta vẫn cố gắng vì nhau.",
+        "Anh hiểu rằng tình yêu không chỉ là cùng nhau tận hưởng những ngày vui vẻ, đi chơi, cười đùa hay trao cho nhau những lời yêu thương. Tình yêu còn là khi một trong hai người không ổn, khi cuộc sống không diễn ra như mong muốn, chúng ta vẫn học cách quan tâm, thấu hiểu và đồng hành cùng nhau.",
+        "Anh không mong chúng ta phải trải qua thêm những chuyện như vậy để chứng minh tình cảm của mình. Anh chỉ mong rằng sau những gì đã trải qua, cả hai sẽ biết trân trọng sức khỏe, trân trọng những ngày bình yên và trân trọng sự hiện diện của nhau nhiều hơn."
+      ]
+    },
+    {
+      heading: "Nhìn lại một chặng đường",
+      paragraphs: [
+        "Nhìn lại từ ngày đầu tiên gặp nhau cho đến bây giờ, anh nhận ra chúng ta đã trải qua nhiều chuyện hơn anh từng nghĩ. Có những ngày rất vui, có những khoảnh khắc khiến anh cảm thấy thật hạnh phúc khi có em. Nhưng cũng có những lúc buồn, mệt mỏi, những chuyện khiến cả hai phải suy nghĩ và cố gắng rất nhiều.",
+        "Anh biết rằng trong hành trình này, chúng ta không phải lúc nào cũng hoàn hảo. Anh và em đều có những suy nghĩ riêng, những cảm xúc riêng, những lúc chưa hiểu được đối phương hoặc chưa biết cách thể hiện tình cảm sao cho đúng. Có thể đã có những lần chúng ta vô tình làm nhau buồn, có những lúc một người cần được quan tâm nhưng người còn lại lại chưa kịp nhận ra.",
+        "Nhưng với anh, điều quan trọng không phải là chúng ta chưa từng gặp vấn đề, mà là sau những chuyện đã xảy ra, cả hai vẫn cố gắng để hiểu nhau hơn, để sửa đổi những điều chưa tốt và để tiếp tục bước đi cùng nhau.",
+        "Anh cũng đang học cách yêu em tốt hơn. Học cách lắng nghe nhiều hơn, quan tâm đến cảm xúc của em nhiều hơn và hiểu rằng đôi khi, điều em cần không phải là một lời giải thích hay một cách giải quyết vấn đề, mà chỉ đơn giản là có anh ở bên, lắng nghe và cùng em trải qua cảm xúc ấy.",
+        "Anh không dám nói rằng mình sẽ luôn làm mọi thứ thật tốt, hay rằng tương lai của chúng ta sẽ chẳng có những lúc khó khăn. Nhưng anh mong rằng cả hai sẽ luôn giữ được sự chân thành dành cho nhau, biết nói ra những điều mình nghĩ, biết lắng nghe khi đối phương tổn thương và biết nắm tay nhau khi cuộc sống trở nên không dễ dàng.",
+        "Cảm ơn em vì đã xuất hiện trong cuộc sống của anh, vì những niềm vui, những kỷ niệm và cả những bài học mà chúng ta đã cùng nhau trải qua. Cảm ơn em vì đã cùng anh đi qua những ngày tháng không chỉ có màu hồng, để anh hiểu hơn rằng tình yêu không đơn thuần là cảm giác rung động ban đầu, mà còn là sự lựa chọn, sự kiên nhẫn và nỗ lực của hai người.",
+        "Anh không biết tương lai sẽ mang đến cho chúng ta những điều gì. Nhưng ở hiện tại, anh trân trọng những gì chúng ta đang có, trân trọng từng kỷ niệm đã tạo nên câu chuyện của hai đứa và trân trọng cả những điều bình dị mà đôi khi chúng ta vô tình xem là hiển nhiên.",
+        "Anh hy vọng rằng sau này, khi chúng ta cùng nhìn lại những ngày tháng này, cả hai sẽ có thể mỉm cười và nói rằng: “May mắn thật, vì ngày ấy chúng ta đã gặp nhau, đã lựa chọn ở bên nhau và đã cùng nhau cố gắng.”",
+        "Và nếu được lựa chọn, anh vẫn mong mình sẽ tiếp tục là người đồng hành cùng em trong những chặng đường phía trước. Không cần mọi ngày đều phải thật đặc biệt, cũng không cần lúc nào chúng ta cũng phải thể hiện tình yêu bằng những điều lớn lao. Anh chỉ mong chúng ta có thể cùng nhau sống tốt hơn, trưởng thành hơn, yêu thương nhau đúng cách hơn và cùng xây dựng một tương lai mà cả hai đều cảm thấy hạnh phúc.",
+        "Cảm ơn em vì đã là một phần trong câu chuyện của anh. Và anh hy vọng, câu chuyện của chúng ta vẫn sẽ còn rất nhiều chương tiếp theo."
+      ]
+    }
+  ],
+
+  promises: [
+    "Đi thêm vài nơi mà mình chưa từng đến.",
+    "Chụp thật nhiều ảnh, kể cả những ngày không có gì đặc biệt.",
+    "Nghe em kể hết, kể cả khi câu chuyện dài.",
+    "Giữ những buổi tối bình thường, chỉ có hai đứa.",
+    "Ở cạnh nhau qua những ngày không dễ dàng."
+  ],
+
+  music: "music/JVKE_-_oh_to_be_loved_(Official_Lyric_Video).mp3"
+};
+
+/* ============================================================
+   HELPERS
+   ============================================================ */
+const $ = (sel, root = document) => root.querySelector(sel);
+const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
+const pad2 = (n) => String(n).padStart(2, "0");
+const escapeHtml = (value) => String(value ?? "")
+  .replaceAll("&", "&amp;")
+  .replaceAll("<", "&lt;")
+  .replaceAll(">", "&gt;")
+  .replaceAll('"', "&quot;")
+  .replaceAll("'", "&#39;");
+
+function parseDate(iso) {
+  if (!iso) return null;
+  const parts = String(iso).split("-").map(Number);
+  if (parts.length !== 3 || parts.some(Number.isNaN)) return null;
+  return new Date(parts[0], parts[1] - 1, parts[2]);
+}
+function atMidnight(date) {
+  return new Date(date.getFullYear(), date.getMonth(), date.getDate());
+}
+function formatShort(date) {
+  if (!date) return "";
+  return `${pad2(date.getDate())}.${pad2(date.getMonth() + 1)}.${date.getFullYear()}`;
+}
+function formatLong(date) {
+  if (!date) return "";
+  return `${date.getDate()} tháng ${date.getMonth() + 1}, ${date.getFullYear()}`;
+}
+function todayShort() {
+  return formatShort(new Date());
+}
+function yearsBetween(start, target) {
+  return target.getFullYear() - start.getFullYear();
+}
+
+/* ============================================================
+   CONTENT
+   ============================================================ */
+const start = parseDate(CONFIG.startDate) || new Date(2025, 11, 24);
+
+function bindNames() {
+  $$('[data-name="her"]').forEach((el) => { el.textContent = CONFIG.herName; });
+  $$('[data-name="you"]').forEach((el) => { el.textContent = CONFIG.yourName; });
+  document.title = `Mười tháng bên em · Gửi ${CONFIG.herName}`;
+}
+
+function renderMemories() {
+  const root = $("#memories");
+  if (!root) return;
+  root.innerHTML = CONFIG.memories.map((item, index) => {
+    const date = parseDate(item.date);
+    return `
+      <article class="memory" data-reveal style="transition-delay:${index * 60}ms">
+        <p class="memory-date">${escapeHtml(date ? formatShort(date) : item.date)}</p>
+        <h3>${escapeHtml(item.title)}</h3>
+        <p class="memory-text">${escapeHtml(item.text)}</p>
+      </article>
+    `;
+  }).join("");
+}
+
+function renderGallery() {
+  const root = $("#album");
+  if (!root) return;
+  root.innerHTML = CONFIG.gallery.map((item, index) => `
+    <button class="shot" type="button" data-index="${index}" aria-label="Xem ảnh ${index + 1}" data-reveal style="transition-delay:${Math.min(index, 5) * 55}ms">
+      <span class="shot-img">
+        <span class="shot-empty"><strong>Một khung hình đang chờ</strong><span>thêm ảnh của mình</span></span>
+        <img src="${escapeHtml(item.src)}" alt="" loading="lazy" decoding="async">
+      </span>
+    </button>
+  `).join("");
+
+  $$(".shot", root).forEach((button, index) => {
+    const img = $("img", button);
+    if (img) {
+      img.addEventListener("error", () => {
+        button.dataset.missing = "1";
+        img.remove();
+      });
+    }
+    button.addEventListener("click", () => openLightbox(index));
+  });
+}
+
+function renderVideos() {
+  const root = $("#videoGrid");
+  if (!root) return;
+  const videos = Array.isArray(CONFIG.videos) ? CONFIG.videos : [];
+  root.innerHTML = videos.map((item, index) => {
+    const src = String(item.src || "").trim();
+    const poster = String(item.poster || "").trim();
+    const caption = String(item.caption || "Một thước phim");
+    const date = String(item.date || "");
+    const type = item.type || (/\.webm(?:$|[?#])/i.test(src) ? "video/webm" : "video/mp4");
+    return `
+      <article class="video-card" data-reveal style="transition-delay:${Math.min(index, 5) * 60}ms">
+        <div class="video-frame">
+          <div class="video-empty">
+            <span class="video-play" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></span>
+            <strong>Một thước phim đang chờ</strong>
+            <span>thêm video vào videos/</span>
+          </div>
+          ${src ? `<video controls playsinline preload="metadata"${poster ? ` poster="${escapeHtml(poster)}"` : ""} aria-label="Video: ${escapeHtml(caption)}"><source src="${escapeHtml(src)}" type="${escapeHtml(type)}"></video>` : ""}
+        </div>
+        <div class="video-meta">
+          <strong>${escapeHtml(caption)}</strong>
+          ${date ? `<span>${escapeHtml(date)}</span>` : ""}
+        </div>
+      </article>
+    `;
+  }).join("");
+
+  initVideos();
+}
+
+function initVideos() {
+  $$(".video-card").forEach((card) => {
+    const video = $("video", card);
+    if (!video) return;
+    const empty = $(".video-empty", card);
+    const markReady = () => {
+      card.classList.remove("is-missing");
+      card.classList.add("is-ready");
+    };
+    const markMissing = () => {
+      card.classList.remove("is-ready");
+      card.classList.add("is-missing");
+      if (!empty) return;
+      const title = $("strong", empty);
+      const hint = $("span:not(.video-play)", empty);
+      if (title) title.textContent = "Chưa tìm thấy video";
+      if (hint) hint.textContent = "kiểm tra file trong videos/";
+    };
+
+    video.addEventListener("loadedmetadata", markReady, { once: true });
+    video.addEventListener("canplay", markReady, { once: true });
+    video.addEventListener("error", markMissing, { once: true });
+    $$("source", video).forEach((source) => source.addEventListener("error", markMissing, { once: true }));
+
+    if (video.readyState >= 1) markReady();
+  });
+}
+
+function renderLetter() {
+  const body = $("#letterBody");
+  if (!body) return;
+  const index = $("#letterIndex");
+  const sections = CONFIG.letter.map((section, i) => ({
+    ...section,
+    id: `letter-${i + 1}`,
+    label: section.heading.includes("·")
+      ? section.heading.split("·").slice(1).join("·").trim()
+      : section.heading
+  }));
+
+  body.innerHTML = sections.map((section, i) => `
+    <div class="letter-chapter" id="${section.id}" data-reveal style="transition-delay:${Math.min(i, 4) * 40}ms">
+      <h3>${escapeHtml(section.heading)}</h3>
+      ${section.paragraphs.map((paragraph) => `<p>${escapeHtml(paragraph)}</p>`).join("")}
+    </div>
+  `).join("");
+
+  if (index) {
+    index.innerHTML = sections.map((section, i) => `
+      <a class="letter-link" href="#${section.id}" data-letter-link>
+        <span>${String(i + 1).padStart(2, "0")}</span>${escapeHtml(section.label)}
+      </a>
+    `).join("");
+  }
+}
+
+function initLetterIndex() {
+  const links = $$("[data-letter-link]");
+  const chapters = $$(".letter-chapter");
+  if (!links.length || !chapters.length) return;
+
+  const setActive = (id) => {
+    links.forEach((link) => {
+      const active = link.getAttribute("href") === `#${id}`;
+      link.classList.toggle("is-active", active);
+      if (active) link.setAttribute("aria-current", "location");
+      else link.removeAttribute("aria-current");
+    });
+  };
+
+  links.forEach((link) => {
+    link.addEventListener("click", () => {
+      const id = link.getAttribute("href")?.slice(1);
+      if (id) setActive(id);
+    });
+  });
+
+  const letter = $("#letter");
+  let frame = 0;
+  const update = () => {
+    frame = 0;
+    const marker = window.innerHeight * 0.32;
+    const letterRect = letter?.getBoundingClientRect();
+    if (!letterRect || letterRect.top > marker || letterRect.bottom <= marker) {
+      setActive("");
+      return;
+    }
+    const current = chapters.find((chapter) => {
+      const rect = chapter.getBoundingClientRect();
+      return rect.top <= marker && rect.bottom > marker;
+    });
+    if (current) setActive(current.id);
+  };
+
+  const request = () => {
+    if (frame) return;
+    frame = window.requestAnimationFrame(update);
+  };
+
+  window.addEventListener("scroll", request, { passive: true });
+  window.addEventListener("resize", request, { passive: true });
+  update();
+}
+
+function initScrollProgress() {
+  const bar = $("#scrollProgress");
+  if (!bar) return;
+  let frame = 0;
+
+  const update = () => {
+    frame = 0;
+    const scrollable = document.documentElement.scrollHeight - window.innerHeight;
+    const ratio = scrollable > 0 ? window.scrollY / scrollable : 0;
+    bar.style.transform = `scaleX(${Math.min(1, Math.max(0, ratio)).toFixed(4)})`;
+  };
+
+  const request = () => {
+    if (frame) return;
+    frame = window.requestAnimationFrame(update);
+  };
+
+  window.addEventListener("scroll", request, { passive: true });
+  window.addEventListener("resize", request, { passive: true });
+  window.addEventListener("load", request, { passive: true });
+  update();
+}
+
+function initPageBackground() {
+  const track = $("#pageBgTrack");
+  if (!track || window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+  let frame = 0;
+
+  const update = () => {
+    frame = 0;
+    const scrollable = document.documentElement.scrollHeight - window.innerHeight;
+    const ratio = scrollable > 0 ? window.scrollY / scrollable : 0;
+    const shift = track.offsetHeight / 2;
+    track.style.transform = `translate3d(0, ${(-Math.min(1, Math.max(0, ratio)) * shift).toFixed(1)}px, 0)`;
+  };
+
+  const request = () => {
+    if (frame) return;
+    frame = window.requestAnimationFrame(update);
+  };
+
+  window.addEventListener("scroll", request, { passive: true });
+  window.addEventListener("resize", request, { passive: true });
+  window.addEventListener("load", request, { passive: true });
+  update();
+}
+
+function renderPromises() {
+  const list = $("#promiseList");
+  if (!list) return;
+  list.innerHTML = CONFIG.promises.map((promise, index) => `
+    <li data-reveal style="transition-delay:${index * 45}ms">${escapeHtml(promise)}</li>
+  `).join("");
+}
+
+function setDates() {
+  const startText = formatShort(start);
+  $$('[data-start-date]').forEach((el) => { el.textContent = startText; });
+  $$('[data-today]').forEach((el) => { el.textContent = todayShort(); });
+}
+
+function setDaysTogether() {
+  const target = $("#daysCount");
+  if (!target) return;
+  const now = atMidnight(new Date());
+  const from = atMidnight(start);
+  const days = Math.max(0, Math.floor((now - from) / 86400000));
+  target.textContent = String(days);
+}
+
+/* ============================================================
+   COUNTDOWN
+   ============================================================ */
+function nextTarget(now) {
+  const thisYear = new Date(now.getFullYear(), start.getMonth(), start.getDate());
+  const today = atMidnight(now);
+  const isAnniversary = today.getTime() === thisYear.getTime();
+  let target;
+  if (isAnniversary) {
+    target = thisYear;
+  } else if (thisYear.getTime() > today.getTime()) {
+    target = thisYear;
+  } else {
+    target = new Date(now.getFullYear() + 1, start.getMonth(), start.getDate());
+  }
+  return { target, isAnniversary };
+}
+
+function updateCountdown() {
+  const now = new Date();
+  const { target, isAnniversary } = nextTarget(now);
+  const diff = Math.max(0, target.getTime() - now.getTime());
+  const days = Math.floor(diff / 86400000);
+  const hours = Math.floor((diff % 86400000) / 3600000);
+  const minutes = Math.floor((diff % 3600000) / 60000);
+  const seconds = Math.floor((diff % 60000) / 1000);
+  const years = yearsBetween(start, target);
+
+  const set = (id, value) => {
+    const el = document.getElementById(id);
+    if (el) el.textContent = value;
+  };
+  set("cdDays", String(days));
+  set("cdHours", String(hours));
+  set("cdMinutes", String(minutes));
+  set("cdSeconds", String(seconds));
+
+  const title = $("#count-title");
+  const line = $("#countLine");
+  const targetText = formatLong(target);
+
+  if (title) title.textContent = isAnniversary ? `Hôm nay tròn ${years} năm` : `Tới ${years} năm`;
+  if (line) {
+    line.textContent = isAnniversary
+      ? `Hôm nay là ${years} năm của mình — ${targetText}.`
+      : `Còn ${days} ngày nữa là ${years} năm của mình — ${targetText}.`;
+  }
+}
+
+/* ============================================================
+   HERO CROSSFADE
+   ============================================================ */
+function renderHeroPhotos() {
+  const root = $(".hero-photo");
+  if (!root || !CONFIG.heroPhotos || !CONFIG.heroPhotos.length) return;
+  root.innerHTML = CONFIG.heroPhotos.map((src, index) => `
+    <img class="${index === 0 ? 'active' : ''}" src="${escapeHtml(src)}" alt="" decoding="async" ${index === 0 ? 'fetchpriority="high"' : 'loading="lazy"'}>
+  `).join("");
+}
+
+function initHeroPhotos() {
+  const imgs = $$(".hero-photo img");
+  if (!imgs.length) return;
+  imgs[0].classList.add("active");
+  if (imgs.length < 2) return;
+
+  const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  if (reduce) return;
+
+  let index = 0;
+  window.setInterval(() => {
+    if (document.hidden) return;
+    imgs[index].classList.remove("active");
+    index = (index + 1) % imgs.length;
+    imgs[index].classList.add("active");
+  }, 7000);
+}
+
+/* ============================================================
+   LIGHTBOX
+   ============================================================ */
+const lightbox = $("#lightbox");
+const lbImg = $("#lbImg");
+const lbFallback = $("#lbFallback");
+const lbCaption = $("#lbCaption");
+const lbDate = $("#lbDate");
+const lbPrev = $("#lbPrev");
+const lbNext = $("#lbNext");
+const lbClose = $("#lbClose");
+let lightboxIndex = 0;
+let lastFocused = null;
+
+function setPageInert(state) {
+  const page = $("#page");
+  if (page) page.inert = state;
+}
+
+function openLightbox(index) {
+  if (!lightbox || !CONFIG.gallery[index]) return;
+  lightboxIndex = index;
+  lastFocused = document.activeElement;
+  updateLightbox();
+  setPageInert(true);
+  lightbox.classList.add("open");
+  lightbox.setAttribute("aria-hidden", "false");
+  document.body.classList.add("lightbox-open");
+  if (lbClose) lbClose.focus();
+}
+
+function closeLightbox() {
+  if (!lightbox) return;
+  lightbox.classList.remove("open");
+  lightbox.setAttribute("aria-hidden", "true");
+  document.body.classList.remove("lightbox-open");
+  setPageInert(false);
+  if (lastFocused && typeof lastFocused.focus === "function") lastFocused.focus();
+}
+
+function updateLightbox() {
+  const item = CONFIG.gallery[lightboxIndex];
+  if (!item) return;
+  const button = $$(".shot")[lightboxIndex];
+  const missing = button && button.dataset.missing === "1";
+  const caption = item.caption || "";
+  const date = item.date || "";
+  if (lbCaption) lbCaption.textContent = caption;
+  if (lbDate) lbDate.textContent = date;
+  const capBar = lbCaption ? lbCaption.closest(".lb-cap") : null;
+  if (capBar) capBar.hidden = !caption && !date;
+  if (lbImg) {
+    lbImg.hidden = Boolean(missing);
+    lbImg.style.display = missing ? "none" : "";
+    lbImg.alt = caption || "Ảnh kỷ niệm";
+    if (!missing) {
+      lbImg.onerror = () => {
+        lbImg.hidden = true;
+        lbImg.style.display = "none";
+        if (lbFallback) lbFallback.hidden = false;
+      };
+      lbImg.src = item.src;
+    }
+  }
+  if (lbFallback) {
+    lbFallback.hidden = !missing;
+    lbFallback.textContent = missing
+      ? "Ảnh này chưa có. Thêm ảnh vào thư mục images/ rồi tải lại trang nhé."
+      : "";
+  }
+  if (lbPrev) lbPrev.disabled = CONFIG.gallery.length < 2;
+  if (lbNext) lbNext.disabled = CONFIG.gallery.length < 2;
+}
+
+function stepLightbox(direction) {
+  const count = CONFIG.gallery.length;
+  if (count < 2) return;
+  lightboxIndex = (lightboxIndex + direction + count) % count;
+  updateLightbox();
+}
+
+if (lbClose) lbClose.addEventListener("click", closeLightbox);
+if (lbPrev) lbPrev.addEventListener("click", () => stepLightbox(-1));
+if (lbNext) lbNext.addEventListener("click", () => stepLightbox(1));
+if (lightbox) {
+  lightbox.addEventListener("click", (event) => {
+    if (event.target === lightbox) closeLightbox();
+  });
+}
+document.addEventListener("keydown", (event) => {
+  if (!lightbox || !lightbox.classList.contains("open")) return;
+  if (event.key === "Escape") closeLightbox();
+  if (event.key === "ArrowLeft") stepLightbox(-1);
+  if (event.key === "ArrowRight") stepLightbox(1);
+});
+
+let touchStartX = 0;
+if (lightbox) {
+  lightbox.addEventListener("touchstart", (event) => {
+    touchStartX = event.changedTouches[0].clientX;
+  }, { passive: true });
+  lightbox.addEventListener("touchend", (event) => {
+    const delta = event.changedTouches[0].clientX - touchStartX;
+    if (Math.abs(delta) > 50) stepLightbox(delta > 0 ? -1 : 1);
+  }, { passive: true });
+}
+
+/* ============================================================
+   MUSIC
+   ============================================================ */
+function setMusicState(playing) {
+  const button = $("#musicBtn");
+  if (!button) return;
+  button.textContent = playing ? "Tắt nhạc" : "Nhạc";
+  button.setAttribute("aria-pressed", String(playing));
+}
+
+function playMusic() {
+  const audio = $("#audio");
+  if (!audio || !CONFIG.music) return;
+  if (!audio.paused) {
+    setMusicState(true);
+    return;
+  }
+  audio.volume = 0.38;
+  audio.play().then(() => setMusicState(true)).catch(() => setMusicState(false));
+}
+
+function initMusic() {
+  const audio = $("#audio");
+  const button = $("#musicBtn");
+  if (!audio || !button) return;
+
+  if (!CONFIG.music) {
+    button.hidden = true;
+    return;
+  }
+
+  audio.src = CONFIG.music;
+
+  button.addEventListener("click", () => {
+    if (!audio.paused) {
+      audio.pause();
+      setMusicState(false);
+      return;
+    }
+    playMusic();
+  });
+
+  audio.addEventListener("ended", () => setMusicState(false));
+}
+
+/* ============================================================
+   FINAL REPLY
+   ============================================================ */
+function initReply() {
+  const card = $("#replyCard");
+  const button = $("#sendBtn");
+  const status = $("#sendStatus");
+  const stamp = $("#sentStamp");
+  if (!card || !button) return;
+
+  button.addEventListener("click", () => {
+    if (card.classList.contains("sent")) return;
+    card.classList.add("sent");
+    button.textContent = "Đã gửi yêu thương";
+    button.setAttribute("aria-disabled", "true");
+    if (status) status.textContent = "Đã gửi. Anh thương em.";
+    if (stamp) stamp.textContent = `Đã gửi · ${todayShort()}`;
+  });
+}
+
+/* ============================================================
+   REVEAL
+   ============================================================ */
+function initReveal() {
+  const elements = $$("[data-reveal]");
+  if (!elements.length) return;
+
+  const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  if (reduce || !("IntersectionObserver" in window)) {
+    elements.forEach((el) => el.classList.add("is-in"));
+    return;
+  }
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (!entry.isIntersecting) return;
+      entry.target.classList.add("is-in");
+      observer.unobserve(entry.target);
+    });
+  }, { threshold: 0.05, rootMargin: "0px 0px -6% 0px" });
+
+  elements.forEach((el) => observer.observe(el));
+}
+
+/* ============================================================
+   HEARTS
+   ============================================================ */
+const HEART_ICON = `
+  <svg viewBox="0 0 24 24" focusable="false" aria-hidden="true">
+    <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+  </svg>
+`;
+const HEART_TONES = {
+  dark: ["#e8e6e1", "#f0d8d0", "#c96a5f"],
+  light: ["#a33a32", "#7f2a24", "#c25a4f"],
+  wax: ["#f2ede4", "#f0d8d0", "#e7e1d6"]
+};
+let heartsStarted = false;
+
+function burstHearts(section, origin) {
+  const layer = $("#hearts");
+  if (!layer || document.hidden) return;
+  if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+
+  const tone = origin?.tone || section?.dataset.heartTone || "dark";
+  const palette = HEART_TONES[tone] || HEART_TONES.dark;
+  const count = window.innerWidth < 640 ? 5 : 7;
+  const baseX = origin ? (origin.x / window.innerWidth) * 100 : null;
+  const originBottom = origin ? Math.max(0, window.innerHeight - origin.y) : null;
+
+  for (let i = 0; i < count; i += 1) {
+    const heart = document.createElement("span");
+    const x = baseX === null
+      ? 8 + Math.random() * 84
+      : Math.min(94, Math.max(6, baseX + (Math.random() * 18 - 9)));
+    const size = window.innerWidth < 640
+      ? 20 + Math.random() * 14
+      : 24 + Math.random() * 20;
+    const rise = window.innerHeight * (1.08 + Math.random() * 0.07);
+
+    heart.className = "heart";
+    heart.setAttribute("aria-hidden", "true");
+    heart.innerHTML = HEART_ICON;
+    heart.style.setProperty("--x", `${x.toFixed(2)}%`);
+    heart.style.setProperty("--size", `${size.toFixed(1)}px`);
+    heart.style.setProperty("--c", palette[Math.floor(Math.random() * palette.length)]);
+    heart.style.setProperty("--o", (0.68 + Math.random() * 0.27).toFixed(2));
+    heart.style.setProperty("--rise", `${rise.toFixed(0)}px`);
+    heart.style.setProperty("--dx", `${(Math.random() * 120 - 60).toFixed(0)}px`);
+    heart.style.setProperty("--r0", `${(Math.random() * 44 - 22).toFixed(0)}deg`);
+    heart.style.setProperty("--r1", `${(Math.random() * 70 - 35).toFixed(0)}deg`);
+    heart.style.setProperty("--dur", `${(3300 + Math.random() * 1000).toFixed(0)}ms`);
+    heart.style.setProperty("--delay", `${(i * 65 + Math.random() * 80).toFixed(0)}ms`);
+    if (originBottom !== null) heart.style.setProperty("--y", `${originBottom.toFixed(0)}px`);
+
+    layer.append(heart);
+    const cleanup = () => heart.remove();
+    heart.addEventListener("animationend", cleanup, { once: true });
+    window.setTimeout(cleanup, 6500);
+  }
+}
+
+function startHearts() {
+  if (heartsStarted) return;
+  heartsStarted = true;
+
+  const sections = $$("[data-hearts]");
+  if (!sections.length || !("IntersectionObserver" in window)) return;
+  if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+
+  const seen = new WeakSet();
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (!entry.isIntersecting || seen.has(entry.target)) return;
+      seen.add(entry.target);
+      burstHearts(entry.target);
+      observer.unobserve(entry.target);
+    });
+  }, { threshold: 0.16, rootMargin: "0px 0px -6% 0px" });
+
+  sections.forEach((section) => observer.observe(section));
+}
+
+/* ============================================================
+   LETTER GATE
+   ============================================================ */
+function initLetterGate() {
+  const cover = $("#letterCover");
+  const button = $("#openLetter");
+  const page = $("#page");
+  const html = document.documentElement;
+  if (!cover || !button || !page) return;
+
+  const skipped = html.classList.contains("letter-skip") || !html.classList.contains("letter-wait");
+  if (skipped) {
+    cover.classList.add("is-done");
+    page.inert = false;
+    page.removeAttribute("aria-hidden");
+    startHearts();
+    return;
+  }
+
+  page.inert = true;
+  page.setAttribute("aria-hidden", "true");
+  window.setTimeout(() => {
+    try {
+      button.focus({ preventScroll: true });
+    } catch (error) {
+      button.focus();
+    }
+  }, 60);
+
+  let opened = false;
+  let finished = false;
+
+  function finish() {
+    if (finished) return;
+    finished = true;
+    cover.classList.add("is-done");
+    page.inert = false;
+    page.removeAttribute("aria-hidden");
+    html.classList.remove("letter-wait");
+    html.classList.add("letter-opened");
+    const title = $("#hero-title");
+    if (title) {
+      title.setAttribute("tabindex", "-1");
+      try {
+        title.focus({ preventScroll: true });
+      } catch (error) {
+        title.focus();
+      }
+    }
+    window.scrollTo(0, 0);
+    startHearts();
+  }
+
+  button.addEventListener("click", () => {
+    if (opened) return;
+    opened = true;
+    // Phát trong click để trình duyệt cho phép autoplay.
+    playMusic();
+
+    const seal = $(".cover-seal", cover);
+    if (seal) {
+      const rect = seal.getBoundingClientRect();
+      burstHearts(null, {
+        x: rect.left + rect.width / 2,
+        y: rect.top + rect.height / 2,
+        tone: "light"
+      });
+    }
+
+    cover.classList.add("is-opening");
+    try {
+      sessionStorage.setItem("qa-letter-opened", "1");
+    } catch (error) {
+      // The letter still opens if storage is unavailable.
+    }
+
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+      finish();
+      return;
+    }
+    window.setTimeout(finish, 720);
+  });
+}
+
+/* ============================================================
+   INIT
+   ============================================================ */
+function buildStripe() {
+  const stripes = $$(".stripe");
+  if (!stripes.length) return;
+  const count = 32;
+  let html = "";
+  for (let i = 0; i < count; i += 1) html += "<span></span>";
+  stripes.forEach((stripe) => { stripe.innerHTML = html; });
+}
+
+function buildScallops() {
+  const row = $(".scallops");
+  if (!row) return;
+  const count = 26;
+  let html = "";
+  for (let i = 0; i < count; i += 1) html += "<span></span>";
+  row.innerHTML = html;
+}
+
+function init() {
+  bindNames();
+  buildStripe();
+  buildScallops();
+  setDates();
+  setDaysTogether();
+  renderMemories();
+  renderGallery();
+  renderVideos();
+  renderLetter();
+  initLetterIndex();
+  renderPromises();
+  renderHeroPhotos();
+  initHeroPhotos();
+  initMusic();
+  initReply();
+  initLetterGate();
+  initScrollProgress();
+  initPageBackground();
+  updateCountdown();
+  window.setInterval(updateCountdown, 1000);
+
+  document.documentElement.classList.add("js");
+  try {
+    initReveal();
+  } catch (error) {
+    document.documentElement.classList.remove("js");
+  }
+}
+
+init();
+</script>
+</body>
+</html>

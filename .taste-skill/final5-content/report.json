@@ -1,0 +1,2235 @@
+{
+ "url": "http://127.0.0.1:8124/index.html?letter=0",
+ "at": "2026-10-21T09:06:04.035Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 8,
+   "filled": [
+    0.82,
+    0.93,
+    0.67,
+    0.57,
+    0.82,
+    1,
+    0.61,
+    0.68
+   ],
+   "motion": {
+    "elements": 84,
+    "css": 49,
+    "transitions": 35,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 7137,
+     "screens": 7.9,
+     "words": 664,
+     "img": 8,
+     "video": 0,
+     "canvas": 0,
+     "svg": 23,
+     "sections": 8,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 4,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "sealing-wax-on-letters.jpg",
+      "love-letter-1906.jpg",
+      "fountain-pen.webp",
+      "letter-1845.jpg"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Mười tháng bên em",
+     "words": 4,
+     "chars": 17,
+     "lines": 2,
+     "size": 92.2,
+     "vw": 6.4,
+     "font": "Newsreader",
+     "weight": 500,
+     "tracking": -0.045,
+     "leading": 0.96,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.36,
+     "top": 139,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Mười tháng bên em",
+     "words": 4,
+     "lines": 2,
+     "size": 92.2,
+     "font": "Newsreader"
+    },
+    "headings": [
+     {
+      "text": "Mười tháng bên em",
+      "words": 4,
+      "chars": 17,
+      "lines": 2,
+      "size": 92.2,
+      "vw": 6.4,
+      "font": "Newsreader",
+      "weight": 500,
+      "tracking": -0.045,
+      "leading": 0.96,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.36,
+      "top": 139,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "301",
+      "words": 1,
+      "chars": 3,
+      "lines": 1,
+      "size": 46.1,
+      "vw": 3.2,
+      "font": "Newsreader",
+      "weight": 400,
+      "tracking": -0.03,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.05,
+      "top": 738,
+      "tag": "span",
+      "kind": "statement"
+     },
+     {
+      "text": "63",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 92.2,
+      "vw": 6.4,
+      "font": "Newsreader",
+      "weight": 400,
+      "tracking": -0.04,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.22,
+      "top": 5251,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "7",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 92.2,
+      "vw": 6.4,
+      "font": "Newsreader",
+      "weight": 400,
+      "tracking": -0.04,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.22,
+      "top": 5251,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "53",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 92.2,
+      "vw": 6.4,
+      "font": "Newsreader",
+      "weight": 400,
+      "tracking": -0.04,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.22,
+      "top": 5251,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "45",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 92.2,
+      "vw": 6.4,
+      "font": "Newsreader",
+      "weight": 400,
+      "tracking": -0.04,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.22,
+      "top": 5251,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "Anh thương em.",
+      "words": 3,
+      "chars": 14,
+      "lines": 1,
+      "size": 46.1,
+      "vw": 3.2,
+      "font": "Newsreader",
+      "weight": 400,
+      "tracking": -0.03,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.41,
+      "top": 6715,
+      "tag": "p",
+      "kind": "statement"
+     }
+    ],
+    "headingSummary": {
+     "count": 7,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 2,
+     "centered": 0,
+     "medianWords": 1,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Be Vietnam Pro",
+       "share": 0.84,
+       "mono": false
+      },
+      {
+       "family": "Newsreader",
+       "share": 0.16,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      14,
+      17,
+      22,
+      26,
+      46,
+      92
+     ],
+     "sizeCount": 6,
+     "notLoaded": [],
+     "body": {
+      "font": "Be Vietnam Pro",
+      "size": 17,
+      "leading": 1.65,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 13.1
+     },
+     "measureChars": 73,
+     "max": {
+      "size": 92.2,
+      "vw": 6.4,
+      "font": "Newsreader",
+      "text": "Mười thángbên em"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.09,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#121821",
+     "bodyBgHsl": {
+      "h": 216,
+      "s": 0.29,
+      "l": 0.1
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#e7e1d6",
+       "top": 71,
+       "hsl": {
+        "h": 39,
+        "s": 0.26,
+        "l": 0.87
+       }
+      },
+      {
+       "color": "#1a222d",
+       "top": 71,
+       "hsl": {
+        "h": 215,
+        "s": 0.27,
+        "l": 0.14
+       }
+      },
+      {
+       "color": "#a33a32",
+       "top": 5037,
+       "hsl": {
+        "h": 4,
+        "s": 0.53,
+        "l": 0.42
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#1b1c1e",
+       "share": 0.53
+      },
+      {
+       "color": "#59554d",
+       "share": 0.22
+      },
+      {
+       "color": "#e8e6e1",
+       "share": 0.1
+      },
+      {
+       "color": "#a9a69e",
+       "share": 0.07
+      },
+      {
+       "color": "#f0d8d0",
+       "share": 0.05
+      }
+     ],
+     "button": {
+      "bg": "#a33a32",
+      "hsl": {
+       "h": 4,
+       "s": 0.53,
+       "l": 0.42
+      },
+      "fg": "#e7e1d6"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 3,
+     "inHero": 2,
+     "radius": 0,
+     "height": 52,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Đến nội dung",
+      "Đọc lá thư"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 2,
+     "boxRadius": 16,
+     "squareMedia": 1,
+     "roundedMedia": 3,
+     "mediaRadius": 16,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.41
+     },
+     {
+      "type": "img",
+      "ratio": 0.41
+     },
+     {
+      "type": "img",
+      "ratio": 0.41
+     }
+    ],
+    "nav": {
+     "links": 5,
+     "fixed": false,
+     "height": 71,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "be vietnam pro",
+     "newsreader"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 7137,
+    "margins": {
+     "left": 32,
+     "right": 32
+    },
+    "sections": [
+     {
+      "sel": "section#top.hero.wrap",
+      "tag": "section",
+      "top": 71,
+      "height": 782,
+      "words": 42,
+      "media": 1,
+      "middle": 195,
+      "heading": {
+       "text": "Mười tháng",
+       "size": 92,
+       "tag": "h1"
+      },
+      "left": 78,
+      "right": 32,
+      "textLeft": 78,
+      "textRight": 907,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#story.story-field",
+      "tag": "section",
+      "top": 965,
+      "height": 1064,
+      "words": 118,
+      "media": 0,
+      "middle": 209,
+      "heading": {
+       "text": "Chuyện của mình",
+       "size": 26,
+       "tag": "h2"
+      },
+      "left": 32,
+      "right": 120,
+      "textLeft": 32,
+      "textRight": 120,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#photos.section.wrap",
+      "tag": "section",
+      "top": 2029,
+      "height": 1275,
+      "words": 98,
+      "media": 0,
+      "middle": 12,
+      "heading": {
+       "text": "Những tấm ảnh",
+       "size": 26,
+       "tag": "h2"
+      },
+      "left": 32,
+      "right": 32,
+      "textLeft": 32,
+      "textRight": 46,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "figure.plate",
+      "tag": "figure",
+      "top": 3436,
+      "height": 555,
+      "words": 8,
+      "media": 1,
+      "middle": 1057,
+      "heading": null,
+      "left": 32,
+      "right": 32,
+      "textLeft": 32,
+      "textRight": 32,
+      "fullBleed": true,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#letter.letter-field",
+      "tag": "section",
+      "top": 4152,
+      "height": 886,
+      "words": 140,
+      "media": 0,
+      "middle": 326,
+      "heading": {
+       "text": "Lá thư",
+       "size": 26,
+       "tag": "h2"
+      },
+      "left": 192,
+      "right": 204,
+      "textLeft": 192,
+      "textRight": 204,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#countdown.countdown-field",
+      "tag": "section",
+      "top": 5037,
+      "height": 556,
+      "words": 25,
+      "media": 0,
+      "middle": 252,
+      "heading": {
+       "text": "63",
+       "size": 92,
+       "tag": "span"
+      },
+      "left": 32,
+      "right": 240,
+      "textLeft": 32,
+      "textRight": 240,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#promises.section.wrap",
+      "tag": "section",
+      "top": 5594,
+      "height": 478,
+      "words": 87,
+      "media": 0,
+      "middle": 229,
+      "heading": {
+       "text": "Những điều mình sẽ làm",
+       "size": 26,
+       "tag": "h2"
+      },
+      "left": 32,
+      "right": 158,
+      "textLeft": 32,
+      "textRight": 158,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#final.final",
+      "tag": "section",
+      "top": 6072,
+      "height": 461,
+      "words": 40,
+      "media": 0,
+      "middle": 583,
+      "heading": {
+       "text": "Một năm nữa nhé",
+       "size": 26,
+       "tag": "h2"
+      },
+      "left": 32,
+      "right": 76,
+      "textLeft": 32,
+      "textRight": 84,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.footer",
+      "tag": "footer",
+      "top": 6533,
+      "height": 604,
+      "words": 64,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Anh thương em.",
+       "size": 46,
+       "tag": "p"
+      },
+      "left": 208,
+      "right": 208,
+      "textLeft": 208,
+      "textRight": 208,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [
+     {
+      "top": 1884,
+      "height": 304
+     },
+     {
+      "top": 3992,
+      "height": 300
+     },
+     {
+      "top": 4868,
+      "height": 296
+     },
+     {
+      "top": 5468,
+      "height": 284
+     }
+    ],
+    "h1s": [
+     {
+      "text": "Mười tháng bên em",
+      "size": 92,
+      "top": 139,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 417,
+      "n": 9
+     },
+     {
+      "x": 32,
+      "n": 5
+     },
+     {
+      "x": 618,
+      "n": 4
+     },
+     {
+      "x": 78,
+      "n": 2
+     },
+     {
+      "x": 992,
+      "n": 2
+     },
+     {
+      "x": 192,
+      "n": 1
+     },
+     {
+      "x": 857,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 24,
+    "bodySize": 17,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0.12,
+    "voidBox": {
+     "x": 300,
+     "y": 540,
+     "w": 420,
+     "h": 360
+    }
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 7,
+   "filled": [
+    0.84,
+    0.93,
+    0.76,
+    0.87,
+    0.77,
+    0.78,
+    0.8
+   ],
+   "motion": {
+    "elements": 80,
+    "css": 49,
+    "transitions": 31,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 6409,
+     "screens": 6.3,
+     "words": 664,
+     "img": 8,
+     "video": 0,
+     "canvas": 0,
+     "svg": 20,
+     "sections": 8,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 4,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "sealing-wax-on-letters.jpg",
+      "love-letter-1906.jpg",
+      "fountain-pen.webp",
+      "letter-1845.jpg"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Mười tháng bên em",
+     "words": 4,
+     "chars": 17,
+     "lines": 2,
+     "size": 49.2,
+     "vw": 6.4,
+     "font": "Newsreader",
+     "weight": 500,
+     "tracking": -0.045,
+     "leading": 0.96,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.38,
+     "top": 519,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Mười tháng bên em",
+     "words": 4,
+     "lines": 2,
+     "size": 49.2,
+     "font": "Newsreader"
+    },
+    "headings": [
+     {
+      "text": "Mười tháng bên em",
+      "words": 4,
+      "chars": 17,
+      "lines": 2,
+      "size": 49.2,
+      "vw": 6.4,
+      "font": "Newsreader",
+      "weight": 500,
+      "tracking": -0.045,
+      "leading": 0.96,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.38,
+      "top": 519,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "301",
+      "words": 1,
+      "chars": 3,
+      "lines": 1,
+      "size": 32,
+      "vw": 4.2,
+      "font": "Newsreader",
+      "weight": 400,
+      "tracking": -0.03,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.07,
+      "top": 890,
+      "tag": "span",
+      "kind": "statement"
+     },
+     {
+      "text": "63",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 49.2,
+      "vw": 6.4,
+      "font": "Newsreader",
+      "weight": 400,
+      "tracking": -0.04,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.22,
+      "top": 4537,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "7",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 49.2,
+      "vw": 6.4,
+      "font": "Newsreader",
+      "weight": 400,
+      "tracking": -0.04,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.22,
+      "top": 4537,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "53",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 49.2,
+      "vw": 6.4,
+      "font": "Newsreader",
+      "weight": 400,
+      "tracking": -0.04,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.22,
+      "top": 4537,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "37",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 49.2,
+      "vw": 6.4,
+      "font": "Newsreader",
+      "weight": 400,
+      "tracking": -0.04,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.22,
+      "top": 4537,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "Anh thương em.",
+      "words": 3,
+      "chars": 14,
+      "lines": 1,
+      "size": 32,
+      "vw": 4.2,
+      "font": "Newsreader",
+      "weight": 400,
+      "tracking": -0.03,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.87,
+      "top": 5956,
+      "tag": "p",
+      "kind": "statement"
+     }
+    ],
+    "headingSummary": {
+     "count": 7,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 2,
+     "centered": 0,
+     "medianWords": 1,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Be Vietnam Pro",
+       "share": 0.84,
+       "mono": false
+      },
+      {
+       "family": "Newsreader",
+       "share": 0.16,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      14,
+      17,
+      18,
+      26,
+      32,
+      49
+     ],
+     "sizeCount": 6,
+     "notLoaded": [],
+     "body": {
+      "font": "Be Vietnam Pro",
+      "size": 17,
+      "leading": 1.65,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 13.1
+     },
+     "measureChars": 73,
+     "max": {
+      "size": 49.2,
+      "vw": 6.4,
+      "font": "Newsreader",
+      "text": "Mười thángbên em"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.09,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#121821",
+     "bodyBgHsl": {
+      "h": 216,
+      "s": 0.29,
+      "l": 0.1
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#e7e1d6",
+       "top": 477,
+       "hsl": {
+        "h": 39,
+        "s": 0.26,
+        "l": 0.87
+       }
+      },
+      {
+       "color": "#1a222d",
+       "top": 71,
+       "hsl": {
+        "h": 215,
+        "s": 0.27,
+        "l": 0.14
+       }
+      },
+      {
+       "color": "#a33a32",
+       "top": 4393,
+       "hsl": {
+        "h": 4,
+        "s": 0.53,
+        "l": 0.42
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#1b1c1e",
+       "share": 0.53
+      },
+      {
+       "color": "#59554d",
+       "share": 0.22
+      },
+      {
+       "color": "#e8e6e1",
+       "share": 0.1
+      },
+      {
+       "color": "#a9a69e",
+       "share": 0.07
+      },
+      {
+       "color": "#f0d8d0",
+       "share": 0.05
+      }
+     ],
+     "button": {
+      "bg": "#a33a32",
+      "hsl": {
+       "h": 4,
+       "s": 0.53,
+       "l": 0.42
+      },
+      "fg": "#e7e1d6"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 3,
+     "inHero": 2,
+     "radius": 0,
+     "height": 52,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Đến nội dung",
+      "Đọc lá thư"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 2,
+     "boxRadius": 16,
+     "squareMedia": 1,
+     "roundedMedia": 3,
+     "mediaRadius": 16,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.4
+     },
+     {
+      "type": "img",
+      "ratio": 0.4
+     },
+     {
+      "type": "img",
+      "ratio": 0.4
+     }
+    ],
+    "nav": {
+     "links": 5,
+     "fixed": false,
+     "height": 71,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "be vietnam pro",
+     "newsreader"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 6409,
+    "margins": {
+     "left": 18,
+     "right": 18
+    },
+    "sections": [
+     {
+      "sel": "section#top.hero.wrap",
+      "tag": "section",
+      "top": 71,
+      "height": 906,
+      "words": 42,
+      "media": 2,
+      "middle": 0,
+      "heading": {
+       "text": "Mười tháng",
+       "size": 49,
+       "tag": "h1"
+      },
+      "left": 18,
+      "right": 18,
+      "textLeft": 52,
+      "textRight": 372,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#story.story-field",
+      "tag": "section",
+      "top": 1049,
+      "height": 927,
+      "words": 118,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Chuyện của mình",
+       "size": 26,
+       "tag": "h2"
+      },
+      "left": 18,
+      "right": 33,
+      "textLeft": 18,
+      "textRight": 33,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#photos.section.wrap",
+      "tag": "section",
+      "top": 1976,
+      "height": 960,
+      "words": 98,
+      "media": 0,
+      "middle": 12,
+      "heading": {
+       "text": "Những tấm ảnh",
+       "size": 26,
+       "tag": "h2"
+      },
+      "left": 18,
+      "right": 18,
+      "textLeft": 18,
+      "textRight": 32,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "figure.plate",
+      "tag": "figure",
+      "top": 3013,
+      "height": 358,
+      "words": 8,
+      "media": 1,
+      "middle": 412,
+      "heading": null,
+      "left": 18,
+      "right": 18,
+      "textLeft": 18,
+      "textRight": 18,
+      "fullBleed": true,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#letter.letter-field",
+      "tag": "section",
+      "top": 3466,
+      "height": 926,
+      "words": 140,
+      "media": 0,
+      "middle": 30,
+      "heading": {
+       "text": "Lá thư",
+       "size": 26,
+       "tag": "h2"
+      },
+      "left": 18,
+      "right": 24,
+      "textLeft": 18,
+      "textRight": 132,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#countdown.countdown-field",
+      "tag": "section",
+      "top": 4393,
+      "height": 381,
+      "words": 25,
+      "media": 0,
+      "middle": 128,
+      "heading": {
+       "text": "63",
+       "size": 49,
+       "tag": "span"
+      },
+      "left": 18,
+      "right": 131,
+      "textLeft": 18,
+      "textRight": 131,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#promises.section.wrap",
+      "tag": "section",
+      "top": 4774,
+      "height": 546,
+      "words": 63,
+      "media": 0,
+      "middle": 36,
+      "heading": {
+       "text": "Những điều mình sẽ làm",
+       "size": 26,
+       "tag": "h2"
+      },
+      "left": 18,
+      "right": 46,
+      "textLeft": 18,
+      "textRight": 46,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#final.final",
+      "tag": "section",
+      "top": 5320,
+      "height": 508,
+      "words": 40,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Một năm nữa nhé",
+       "size": 26,
+       "tag": "h2"
+      },
+      "left": 18,
+      "right": 318,
+      "textLeft": 18,
+      "textRight": 357,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.footer",
+      "tag": "footer",
+      "top": 5827,
+      "height": 581,
+      "words": 64,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Anh thương em.",
+       "size": 32,
+       "tag": "p"
+      },
+      "left": 49,
+      "right": 71,
+      "textLeft": 49,
+      "textRight": 71,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Mười tháng bên em",
+      "size": 49,
+      "top": 519,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 18,
+      "n": 11
+     },
+     {
+      "x": 223,
+      "n": 9
+     },
+     {
+      "x": 46,
+      "n": 4
+     }
+    ],
+    "leftBlocks": 24,
+    "bodySize": 17,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 9,
+   "filled": [
+    0.85,
+    0.93,
+    0.79,
+    0.84,
+    0.83,
+    1,
+    0.41,
+    0.89,
+    0.82
+   ],
+   "motion": {
+    "elements": 70,
+    "css": 35,
+    "transitions": 35,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 7147,
+     "screens": 8.5,
+     "words": 659,
+     "img": 8,
+     "video": 0,
+     "canvas": 0,
+     "svg": 10,
+     "sections": 8,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 4,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "sealing-wax-on-letters.jpg",
+      "love-letter-1906.jpg",
+      "fountain-pen.webp",
+      "letter-1845.jpg"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Mười tháng bên em",
+     "words": 4,
+     "chars": 17,
+     "lines": 2,
+     "size": 44.9,
+     "vw": 11.5,
+     "font": "Newsreader",
+     "weight": 500,
+     "tracking": -0.045,
+     "leading": 0.96,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.68,
+     "top": 402,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Mười tháng bên em",
+     "words": 4,
+     "lines": 2,
+     "size": 44.9,
+     "font": "Newsreader"
+    },
+    "headings": [
+     {
+      "text": "Mười tháng bên em",
+      "words": 4,
+      "chars": 17,
+      "lines": 2,
+      "size": 44.9,
+      "vw": 11.5,
+      "font": "Newsreader",
+      "weight": 500,
+      "tracking": -0.045,
+      "leading": 0.96,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.68,
+      "top": 402,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "301",
+      "words": 1,
+      "chars": 3,
+      "lines": 1,
+      "size": 31.2,
+      "vw": 8,
+      "font": "Newsreader",
+      "weight": 400,
+      "tracking": -0.03,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.13,
+      "top": 765,
+      "tag": "span",
+      "kind": "statement"
+     },
+     {
+      "text": "Chuyện của mình",
+      "words": 3,
+      "chars": 15,
+      "lines": 1,
+      "size": 25.5,
+      "vw": 6.5,
+      "font": "Newsreader",
+      "weight": 500,
+      "tracking": -0.035,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.45,
+      "top": 993,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Những tấm ảnh",
+      "words": 3,
+      "chars": 13,
+      "lines": 1,
+      "size": 25.5,
+      "vw": 6.5,
+      "font": "Newsreader",
+      "weight": 500,
+      "tracking": -0.035,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.45,
+      "top": 2109,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Lá thư",
+      "words": 2,
+      "chars": 6,
+      "lines": 1,
+      "size": 25.5,
+      "vw": 6.5,
+      "font": "Newsreader",
+      "weight": 500,
+      "tracking": -0.035,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.23,
+      "top": 3817,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Tới 1 năm",
+      "words": 3,
+      "chars": 9,
+      "lines": 1,
+      "size": 25.5,
+      "vw": 6.5,
+      "font": "Newsreader",
+      "weight": 500,
+      "tracking": -0.035,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.26,
+      "top": 4891,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "63",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 46.8,
+      "vw": 12,
+      "font": "Newsreader",
+      "weight": 400,
+      "tracking": -0.04,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.43,
+      "top": 4949,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "7",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 46.8,
+      "vw": 12,
+      "font": "Newsreader",
+      "weight": 400,
+      "tracking": -0.04,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.43,
+      "top": 4949,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "53",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 46.8,
+      "vw": 12,
+      "font": "Newsreader",
+      "weight": 400,
+      "tracking": -0.04,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.43,
+      "top": 5050,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "29",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 46.8,
+      "vw": 12,
+      "font": "Newsreader",
+      "weight": 400,
+      "tracking": -0.04,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.43,
+      "top": 5050,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "Những điều mình sẽ làm",
+      "words": 5,
+      "chars": 22,
+      "lines": 2,
+      "size": 25.5,
+      "vw": 6.5,
+      "font": "Newsreader",
+      "weight": 500,
+      "tracking": -0.035,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.53,
+      "top": 5373,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Một năm nữa nhé",
+      "words": 4,
+      "chars": 15,
+      "lines": 2,
+      "size": 25.5,
+      "vw": 6.5,
+      "font": "Newsreader",
+      "weight": 500,
+      "tracking": -0.035,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.34,
+      "top": 6233,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Anh thương em.",
+      "words": 3,
+      "chars": 14,
+      "lines": 1,
+      "size": 32,
+      "vw": 8.2,
+      "font": "Newsreader",
+      "weight": 400,
+      "tracking": -0.03,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.79,
+      "top": 6632,
+      "tag": "p",
+      "kind": "statement"
+     }
+    ],
+    "headingSummary": {
+     "count": 13,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 2,
+     "centered": 0,
+     "medianWords": 3,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Be Vietnam Pro",
+       "share": 0.84,
+       "mono": false
+      },
+      {
+       "family": "Newsreader",
+       "share": 0.16,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      14,
+      17,
+      18,
+      26,
+      31,
+      32,
+      45,
+      47
+     ],
+     "sizeCount": 8,
+     "notLoaded": [],
+     "body": {
+      "font": "Be Vietnam Pro",
+      "size": 17,
+      "leading": 1.65,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 13.1
+     },
+     "measureChars": 42,
+     "max": {
+      "size": 46.8,
+      "vw": 12,
+      "font": "Newsreader",
+      "text": "63"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.09,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#121821",
+     "bodyBgHsl": {
+      "h": 216,
+      "s": 0.29,
+      "l": 0.1
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#e7e1d6",
+       "top": 360,
+       "hsl": {
+        "h": 39,
+        "s": 0.26,
+        "l": 0.87
+       }
+      },
+      {
+       "color": "#1a222d",
+       "top": 63,
+       "hsl": {
+        "h": 215,
+        "s": 0.27,
+        "l": 0.14
+       }
+      },
+      {
+       "color": "#a33a32",
+       "top": 4811,
+       "hsl": {
+        "h": 4,
+        "s": 0.53,
+        "l": 0.42
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#1b1c1e",
+       "share": 0.53
+      },
+      {
+       "color": "#59554d",
+       "share": 0.22
+      },
+      {
+       "color": "#e8e6e1",
+       "share": 0.1
+      },
+      {
+       "color": "#a9a69e",
+       "share": 0.07
+      },
+      {
+       "color": "#f0d8d0",
+       "share": 0.05
+      }
+     ],
+     "button": {
+      "bg": "#a33a32",
+      "hsl": {
+       "h": 4,
+       "s": 0.53,
+       "l": 0.42
+      },
+      "fg": "#e7e1d6"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 3,
+     "inHero": 2,
+     "radius": 0,
+     "height": 52,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Đến nội dung",
+      "Đọc lá thư"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 2,
+     "boxRadius": 16,
+     "squareMedia": 1,
+     "roundedMedia": 3,
+     "mediaRadius": 16,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.35
+     },
+     {
+      "type": "img",
+      "ratio": 0.35
+     },
+     {
+      "type": "img",
+      "ratio": 0.35
+     }
+    ],
+    "nav": {
+     "links": 1,
+     "fixed": false,
+     "height": 63,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "be vietnam pro",
+     "newsreader"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 7147,
+    "margins": {
+     "left": 16,
+     "right": 16
+    },
+    "sections": [
+     {
+      "sel": "section#top.hero.wrap",
+      "tag": "section",
+      "top": 63,
+      "height": 786,
+      "words": 42,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Mười tháng",
+       "size": 45,
+       "tag": "h1"
+      },
+      "left": 16,
+      "right": 16,
+      "textLeft": 50,
+      "textRight": 58,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#story.story-field",
+      "tag": "section",
+      "top": 921,
+      "height": 1092,
+      "words": 118,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Chuyện của mình",
+       "size": 26,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 22,
+      "textLeft": 16,
+      "textRight": 22,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#photos.section.wrap",
+      "tag": "section",
+      "top": 2013,
+      "height": 1114,
+      "words": 98,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Những tấm ảnh",
+       "size": 26,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 16,
+      "textLeft": 16,
+      "textRight": 20,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "figure.plate",
+      "tag": "figure",
+      "top": 3199,
+      "height": 347,
+      "words": 8,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": 16,
+      "right": 188,
+      "textLeft": 16,
+      "textRight": 188,
+      "fullBleed": true,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#letter.letter-field",
+      "tag": "section",
+      "top": 3642,
+      "height": 1168,
+      "words": 140,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Lá thư",
+       "size": 26,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 21,
+      "textLeft": 16,
+      "textRight": 21,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#countdown.countdown-field",
+      "tag": "section",
+      "top": 4811,
+      "height": 467,
+      "words": 25,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "63",
+       "size": 47,
+       "tag": "span"
+      },
+      "left": 16,
+      "right": 20,
+      "textLeft": 16,
+      "textRight": 20,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#promises.section.wrap",
+      "tag": "section",
+      "top": 5277,
+      "height": 697,
+      "words": 87,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Những điều mình sẽ làm",
+       "size": 26,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 25,
+      "textLeft": 16,
+      "textRight": 25,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#final.final",
+      "tag": "section",
+      "top": 5975,
+      "height": 535,
+      "words": 40,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Một năm nữa nhé",
+       "size": 26,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 44,
+      "textLeft": 16,
+      "textRight": 60,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.footer",
+      "tag": "footer",
+      "top": 6510,
+      "height": 638,
+      "words": 64,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Anh thương em.",
+       "size": 32,
+       "tag": "p"
+      },
+      "left": 40,
+      "right": 42,
+      "textLeft": 40,
+      "textRight": 42,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Mười tháng bên em",
+      "size": 45,
+      "top": 402,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 16,
+      "n": 20
+     },
+     {
+      "x": 44,
+      "n": 4
+     }
+    ],
+    "leftBlocks": 24,
+    "bodySize": 17,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1440,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "/home/DoanQuangLam/Projects/QuynhAnh/.taste-skill/final5-content/desktop-fold.jpg",
+   "pages": [
+    "/home/DoanQuangLam/Projects/QuynhAnh/.taste-skill/final5-content/desktop-page-01.jpg",
+    "/home/DoanQuangLam/Projects/QuynhAnh/.taste-skill/final5-content/desktop-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "/home/DoanQuangLam/Projects/QuynhAnh/.taste-skill/final5-content/tablet-fold.jpg",
+   "pages": [
+    "/home/DoanQuangLam/Projects/QuynhAnh/.taste-skill/final5-content/tablet-page-01.jpg",
+    "/home/DoanQuangLam/Projects/QuynhAnh/.taste-skill/final5-content/tablet-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "/home/DoanQuangLam/Projects/QuynhAnh/.taste-skill/final5-content/mobile-fold.jpg",
+   "pages": [
+    "/home/DoanQuangLam/Projects/QuynhAnh/.taste-skill/final5-content/mobile-page-01.jpg",
+    "/home/DoanQuangLam/Projects/QuynhAnh/.taste-skill/final5-content/mobile-page-02.jpg"
+   ],
+   "film": []
+  }
+ ]
+}
