@@ -1164,6 +1164,30 @@ html.has-js:not(.letter-skip) .letter-cover:not(.is-done){display:grid}
   opacity:0;
 }
 
+/* STICKER POP — hiện sau khi mở lá thư xong, bấm để tắt */
+.sticker-pop{
+  position:fixed;
+  inset:0;
+  z-index:94;
+  display:grid;
+  place-items:center;
+  padding:clamp(16px, 4vw, 40px);
+  background:rgb(0 0 0 / .55);
+  opacity:0;
+  pointer-events:none;
+  transition:opacity .45s ease;
+}
+.sticker-pop.is-in{opacity:1;pointer-events:auto}
+.sticker-pop img{
+  width:min(560px, 100%);
+  border-radius:var(--radius);
+  box-shadow:0 24px 64px rgb(0 0 0 / .45);
+  transform:rotate(-3deg) scale(.92);
+  transition:transform .45s var(--ease);
+  cursor:pointer;
+}
+.sticker-pop.is-in img{transform:rotate(-3deg) scale(1)}
+
 /* ============================================================
    FLOATING HEARTS
    ============================================================ */
@@ -1542,6 +1566,10 @@ html.js [data-reveal].is-in{
 
 <div class="hearts-layer" id="hearts" aria-hidden="true"></div>
 
+<div class="sticker-pop" id="stickerPop" role="dialog" aria-modal="true" aria-label="Tặng em nè! &lt;3">
+  <img src="images/sticker.png" alt="Tặng em nè! <3" decoding="async" onerror="this.closest('.sticker-pop').remove()">
+</div>
+
 <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Xem ảnh" aria-hidden="true">
   <button class="lb-close" id="lbClose" type="button">Đóng</button>
   <div class="lb-stage">
@@ -1621,7 +1649,9 @@ const CONFIG = {
     { src: "images/d7aacd71ae522e0c7743.jpg", caption: 'thow :3' },
     { src: "images/e76719bd7a9efac0a38f.jpg", caption: "ehejehehehejehejeheh" },
     { src: "images/ec658c641c429c1cc553.jpg", caption: "cuc dang duoi nangggg" },
-    { src: "images/Em.jpg", caption: "Thien than di biennnn" }
+    { src: "images/Em.jpg", caption: "Thien than di biennnn" },
+    { src: "images/95716c63664ee610bf5f.jpg", caption: "xã iuuuuuu" },
+    { src: "images/eede65d06ffdefa3b6ec.jpg", caption: "xã iuuuuuu" }
   ],
 
   // Thêm file video vào videos/ rồi giữ nguyên tên ở đây.
@@ -2273,7 +2303,7 @@ function burstHearts(section, origin) {
 
   const tone = origin?.tone || section?.dataset.heartTone || "dark";
   const palette = HEART_TONES[tone] || HEART_TONES.dark;
-  const count = window.innerWidth < 640 ? 5 : 7;
+  const count = window.innerWidth < 640 ? 10 : 15;
   const baseX = origin ? (origin.x / window.innerWidth) * 100 : null;
   const originBottom = origin ? Math.max(0, window.innerHeight - origin.y) : null;
 
@@ -2282,9 +2312,9 @@ function burstHearts(section, origin) {
     const x = baseX === null
       ? 8 + Math.random() * 84
       : Math.min(94, Math.max(6, baseX + (Math.random() * 18 - 9)));
-    const size = window.innerWidth < 640
+    const size = (window.innerWidth < 640
       ? 20 + Math.random() * 14
-      : 24 + Math.random() * 20;
+      : 24 + Math.random() * 20) * 1.2;
     const rise = window.innerHeight * (1.08 + Math.random() * 0.07);
 
     heart.className = "heart";
@@ -2381,6 +2411,7 @@ function initLetterGate() {
     }
     window.scrollTo(0, 0);
     startHearts();
+    showSticker();
   }
 
   button.addEventListener("click", () => {
@@ -2412,6 +2443,16 @@ function initLetterGate() {
     }
     window.setTimeout(finish, 720);
   });
+}
+
+/* ============================================================
+   STICKER POP
+   ============================================================ */
+function showSticker() {
+  const pop = $("#stickerPop");
+  if (!pop) return;
+  window.setTimeout(() => pop.classList.add("is-in"), 250);
+  pop.addEventListener("click", () => pop.classList.remove("is-in"), { once: true });
 }
 
 /* ============================================================
