@@ -1187,6 +1187,9 @@ html.has-js:not(.letter-skip) .letter-cover:not(.is-done){display:grid}
   cursor:pointer;
 }
 .sticker-pop.is-in img{transform:rotate(-3deg) scale(1)}
+@media (min-width: 640px){
+  .sticker-pop img{width:min(1120px, 84vw)}
+}
 
 /* ============================================================
    FLOATING HEARTS
@@ -2314,7 +2317,7 @@ function burstHearts(section, origin) {
       : Math.min(94, Math.max(6, baseX + (Math.random() * 18 - 9)));
     const size = (window.innerWidth < 640
       ? 20 + Math.random() * 14
-      : 24 + Math.random() * 20) * 1.2;
+      : 24 + Math.random() * 20) * 2.4; // gấp đôi so với kích thước gốc × 1.2
     const rise = window.innerHeight * (1.08 + Math.random() * 0.07);
 
     heart.className = "heart";
